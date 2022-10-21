@@ -22,7 +22,7 @@ const SolidButton = (props) => {
             border-radius: 50px;
             padding-right: var(--dl-space-space-doubleunit);
             padding-bottom: var(--dl-space-space-halfunit);
-            background-color: var(--dl-color-primary-100);
+            background-color: #4028a0;
           }
         `}
       </style>

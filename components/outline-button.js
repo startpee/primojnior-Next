@@ -19,7 +19,7 @@ const OutlineButton = (props) => {
           .outline-button-button {
             color: var(--dl-color-gray-black);
             padding-top: var(--dl-space-space-unit);
-            border-color: var(--dl-color-primary-100);
+            border-color: #370511ff;
             border-width: 1px;
             padding-left: var(--dl-space-space-doubleunit);
             border-radius: 50px;

@@ -23,7 +23,7 @@ const LandingPage = (props) => {
                 <span className="landing-page-text03">Contato</span>
               </div>
               <a href="#main-section" className="landing-page-link">
-                <SolidButton button="Explore places"></SolidButton>
+                <SolidButton button="Acessar"></SolidButton>
               </a>
             </div>
             <div data-type="BurgerMenu" className="landing-page-burger-menu">
@@ -116,9 +116,9 @@ const LandingPage = (props) => {
           </nav>
           <div className="landing-page-hero">
             <div className="landing-page-content-container">
-              <h1 className="heading landing-page-text09">Book an exclusive</h1>
+              <h1 className="heading landing-page-text09">Seja ilimitado</h1>
               <h2 className="subheading landing-page-subheading">
-                home for your personal travel
+                A vida foi feita para viver
               </h2>
               <span className="landing-page-text10">
                 <span>
@@ -132,7 +132,7 @@ const LandingPage = (props) => {
                 <br></br>
                 <span>personally visited and cannot be found elsewhere.</span>
               </span>
-              <SolidButton button="Explore homes"></SolidButton>
+              <SolidButton button="Baixar"></SolidButton>
             </div>
           </div>
         </div>
@@ -145,32 +145,20 @@ const LandingPage = (props) => {
           />
         </div>
         <div id="main-section" className="landing-page-main">
-          <h1>Most famous places</h1>
-          <span className="landing-page-text15">Recommended</span>
+          <h1>Lugares aonde morei</h1>
+          <span className="landing-page-text15">estado do brasil</span>
           <div className="landing-page-cards-container">
             <PlaceCard
-              city="London"
+              city="Amazonas"
               image="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
             ></PlaceCard>
             <PlaceCard
-              city="Rome"
+              city="Piauí "
               image="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
             ></PlaceCard>
             <PlaceCard
-              city="Cluj-Napoca"
+              city="Rondônia "
               image="https://images.unsplash.com/photo-1513342791620-b106dc487c94?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-            ></PlaceCard>
-            <PlaceCard
-              city="Paris"
-              image="https://images.unsplash.com/photo-1551634979-2b11f8c946fe?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-            ></PlaceCard>
-            <PlaceCard
-              city="Amsterdam"
-              image="https://images.unsplash.com/photo-1585211969224-3e992986159d?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-            ></PlaceCard>
-            <PlaceCard
-              city="Barcelona"
-              image="https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
             ></PlaceCard>
           </div>
         </div>
