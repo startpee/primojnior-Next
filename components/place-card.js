@@ -7,7 +7,7 @@ import OutlineButton from './outline-button'
 const PlaceCard = (props) => {
   return (
     <>
-      <div className="place-card-container">
+      <div className={`place-card-container ${props.rootClassName} `}>
         <img
           alt={props.image_alt}
           src={props.image}
@@ -53,6 +53,9 @@ const PlaceCard = (props) => {
             max-width: 250px;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
+          .place-card-root-class-name {
+            align-self: center;
+          }
           @media (max-width: 767px) {
             .place-card-container {
               width: 200px;
@@ -76,6 +79,7 @@ PlaceCard.defaultProps = {
   city: 'Amazonas',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+  rootClassName: '',
 }
 
 PlaceCard.propTypes = {
@@ -83,6 +87,7 @@ PlaceCard.propTypes = {
   image_alt: PropTypes.string,
   city: PropTypes.string,
   description: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default PlaceCard

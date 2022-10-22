@@ -145,20 +145,20 @@ const LandingPage = (props) => {
           />
         </div>
         <div id="main-section" className="landing-page-main">
-          <h1>Lugares aonde morei</h1>
-          <span className="landing-page-text15">estado do brasil</span>
+          <h1>meus conteudos </h1>
+          <div className="landing-page-html-node1">
+            <span
+              dangerouslySetInnerHTML={{
+                __html:
+                  '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@oprimojunior" data-unique-id="oprimojunior"\r\n    data-embed-type="creator" style="max-width: 720px; min-width: 288px;">\r\n    <section> <a target="_blank" href="https://www.tiktok.com/@oprimojunior?refer=creator_embed">@oprimojunior</a>\r\n    </section>\r\n</blockquote>\r\n<script async src="https://www.tiktok.com/embed.js"></script>',
+              }}
+            />
+          </div>
           <div className="landing-page-cards-container">
-            <PlaceCard
-              city="Amazonas"
-              image="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-            ></PlaceCard>
             <PlaceCard
               city="Piauí "
               image="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-            ></PlaceCard>
-            <PlaceCard
-              city="Rondônia "
-              image="https://images.unsplash.com/photo-1513342791620-b106dc487c94?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+              rootClassName="place-card-root-class-name"
             ></PlaceCard>
           </div>
         </div>
@@ -199,7 +199,7 @@ const LandingPage = (props) => {
                   rel="noreferrer noopener"
                   className="landing-page-link08"
                 >
-                  FAQ
+                  Meu PIX
                 </a>
                 <a
                   href="https://example.com"
@@ -220,7 +220,7 @@ const LandingPage = (props) => {
               </div>
             </div>
             <div className="landing-page-follow-container1">
-              <span className="landing-page-text16">
+              <span className="landing-page-text15">
                 Me acompanhe nas redes
               </span>
               <div className="landing-page-icons-container1">
@@ -473,15 +473,17 @@ const LandingPage = (props) => {
             padding-bottom: var(--dl-space-space-quadruple);
             justify-content: flex-start;
           }
-          .landing-page-text15 {
-            color: var(--dl-color-gray-500);
+          .landing-page-html-node1 {
+            width: 100%;
+            height: 537px;
           }
           .landing-page-cards-container {
             width: 100%;
-            display: flex;
+            display: none;
             grid-gap: var(--dl-space-space-doubleunit);
             flex-wrap: wrap;
             max-width: 1000px;
+            align-self: center;
             margin-top: var(--dl-space-space-doubleunit);
             align-items: flex-start;
             margin-bottom: var(--dl-space-space-doubleunit);
@@ -554,7 +556,7 @@ const LandingPage = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .landing-page-text16 {
+          .landing-page-text15 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .landing-page-icons-container1 {
