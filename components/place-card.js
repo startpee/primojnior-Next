@@ -77,17 +77,17 @@ PlaceCard.defaultProps = {
     'https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000',
   image_alt: 'image',
   city: 'Amazonas',
+  rootClassName: '',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
-  rootClassName: '',
 }
 
 PlaceCard.propTypes = {
   image: PropTypes.string,
   image_alt: PropTypes.string,
   city: PropTypes.string,
-  description: PropTypes.string,
   rootClassName: PropTypes.string,
+  description: PropTypes.string,
 }
 
 export default PlaceCard

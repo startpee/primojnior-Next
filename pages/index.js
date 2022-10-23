@@ -145,15 +145,6 @@ const LandingPage = (props) => {
           />
         </div>
         <div id="main-section" className="landing-page-main">
-          <h1>meus conteudos </h1>
-          <div className="landing-page-html-node1">
-            <span
-              dangerouslySetInnerHTML={{
-                __html:
-                  '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@oprimojunior" data-unique-id="oprimojunior"\r\n    data-embed-type="creator" style="max-width: 720px; min-width: 288px;">\r\n    <section> <a target="_blank" href="https://www.tiktok.com/@oprimojunior?refer=creator_embed">@oprimojunior</a>\r\n    </section>\r\n</blockquote>\r\n<script async src="https://www.tiktok.com/embed.js"></script>',
-              }}
-            />
-          </div>
           <div className="landing-page-cards-container">
             <PlaceCard
               city="Piauí "
@@ -220,7 +211,7 @@ const LandingPage = (props) => {
               </div>
             </div>
             <div className="landing-page-follow-container1">
-              <span className="landing-page-text15">
+              <span className="landing-page-text14">
                 Me acompanhe nas redes
               </span>
               <div className="landing-page-icons-container1">
@@ -473,10 +464,6 @@ const LandingPage = (props) => {
             padding-bottom: var(--dl-space-space-quadruple);
             justify-content: flex-start;
           }
-          .landing-page-html-node1 {
-            width: 100%;
-            height: 537px;
-          }
           .landing-page-cards-container {
             width: 100%;
             display: none;
@@ -556,7 +543,7 @@ const LandingPage = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .landing-page-text15 {
+          .landing-page-text14 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .landing-page-icons-container1 {
