@@ -33,7 +33,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<!-- StorifyMe scripts -->\n<script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script>\n<script charset="UTF-8" src="//web.webpushs.com/js/push/5b278b8515fe37061850e3dc7c5be8ac_1.js" async></script><noscript>',
+                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<!-- StorifyMe scripts -->\n<script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script>\n<script charset="UTF-8" src="//web.webpushs.com/js/push/5b278b8515fe37061850e3dc7c5be8ac_1.js" async></script>\n<script src="//code.tidio.co/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1.js" async></script><noscript>',
             }}
           ></noscript>
         </Head>

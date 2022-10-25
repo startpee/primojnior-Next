@@ -33,7 +33,7 @@ const LandingPage = (props) => {
                 </a>
               </div>
               <a href="#main-section" className="landing-page-link02">
-                <SolidButton button="Acessar"></SolidButton>
+                <SolidButton button="Parceria"></SolidButton>
               </a>
             </div>
             <div data-type="BurgerMenu" className="landing-page-burger-menu">
