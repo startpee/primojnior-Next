@@ -128,9 +128,10 @@ const LandingPage = (props) => {
                 Não existe limite para sonhar
               </h2>
               <span className="landing-page-text09">
-                nunca deixei de acreditar no meu potêncial hoje esto 
+                Estou escrevendo um e-book que vai te ajudar a descobrir o seu
+                potêncial.
               </span>
-              <SolidButton button="Baixar"></SolidButton>
+              <SolidButton button="Eu quero"></SolidButton>
             </div>
           </div>
         </div>
