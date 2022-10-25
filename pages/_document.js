@@ -33,7 +33,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<!-- StorifyMe scripts -->\n<script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script>\n<!-- PushAlert -->\n<script type="text/javascript">\n    (function(d, t) {\n                var g = d.createElement(t),\n                s = d.getElementsByTagName(t)[0];\n                g.src = "https://cdn.pushalert.co/integrate_9fb13425f46e2405b37ef439999b5cf5.js";\n                s.parentNode.insertBefore(g, s);\n        }(document, "script"));\n</script>\n<!-- End PushAlert --><noscript>',
+                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<!-- StorifyMe scripts -->\n<script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script>\n<script charset="UTF-8" src="//web.webpushs.com/js/push/5b278b8515fe37061850e3dc7c5be8ac_1.js" async></script><noscript>',
             }}
           ></noscript>
         </Head>
