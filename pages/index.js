@@ -481,6 +481,7 @@ const LandingPage = (props) => {
           .landing-page-html-node {
             width: 100%;
             height: 100%;
+            margin-top: 40px;
           }
           .landing-page-main {
             width: 100%;
