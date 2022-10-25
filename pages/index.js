@@ -121,21 +121,14 @@ const LandingPage = (props) => {
           </nav>
           <div className="landing-page-hero">
             <div className="landing-page-content-container">
-              <h1 className="heading landing-page-text08">Seja ilimitado</h1>
+              <h1 className="heading landing-page-text08">
+                Seja uma pessoa ilimitada
+              </h1>
               <h2 className="subheading landing-page-subheading">
-                A vida foi feita para viver
+                Não existe limite para sonhar
               </h2>
               <span className="landing-page-text09">
-                <span>
-                  Each property is hand-picked,
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
-                <span>personally visited and cannot be found elsewhere.</span>
+                nunca deixei de acreditar no meu potêncial hoje esto 
               </span>
               <SolidButton button="Baixar"></SolidButton>
             </div>
@@ -187,7 +180,7 @@ const LandingPage = (props) => {
                   rel="noreferrer noopener"
                   className="landing-page-link08"
                 >
-                  minha história 
+                  Minha história 
                 </a>
                 <a
                   href="https://example.com"
@@ -195,7 +188,7 @@ const LandingPage = (props) => {
                   rel="noreferrer noopener"
                   className="landing-page-link09"
                 >
-                  Meu PIX
+                  Portifolio
                 </a>
                 <a
                   href="https://example.com"
@@ -216,7 +209,7 @@ const LandingPage = (props) => {
               </div>
             </div>
             <div className="landing-page-follow-container1">
-              <span className="landing-page-text13">
+              <span className="landing-page-text10">
                 Me acompanhe nas redes
               </span>
               <div className="landing-page-icons-container1">
@@ -549,7 +542,7 @@ const LandingPage = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .landing-page-text13 {
+          .landing-page-text10 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .landing-page-icons-container1 {
