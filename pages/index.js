@@ -334,6 +334,7 @@ const LandingPage = (props) => {
             left: 0px;
             width: 100%;
             height: 100%;
+            display: none;
             padding: var(--dl-space-space-doubleunit);
             z-index: 100;
             position: absolute;
