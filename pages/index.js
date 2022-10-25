@@ -163,14 +163,9 @@ const LandingPage = (props) => {
                 >
                   Meus projetos
                 </a>
-                <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="landing-page-link09"
-                >
-                  Patrocinar
-                </a>
+                <Link href="/parceiro">
+                  <a className="landing-page-link09">Patrocinar</a>
+                </Link>
               </div>
               <div className="landing-page-container2">
                 <a
@@ -197,14 +192,9 @@ const LandingPage = (props) => {
                 >
                   Politica de privacidade
                 </a>
-                <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="landing-page-link13"
-                >
-                  Contato
-                </a>
+                <Link href="/chat">
+                  <a className="landing-page-link13">Contato</a>
+                </Link>
               </div>
             </div>
             <div className="landing-page-follow-container1">
