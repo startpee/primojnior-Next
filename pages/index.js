@@ -124,9 +124,6 @@ const LandingPage = (props) => {
               <h1 className="heading landing-page-text08">
                 Seja uma pessoa ilimitada
               </h1>
-              <h2 className="subheading landing-page-subheading">
-                Não existe limite para sonhar
-              </h2>
               <span className="landing-page-text09">
                 Estou escrevendo um e-book que vai te ajudar a descobrir o seu
                 Dom.
@@ -624,10 +621,6 @@ const LandingPage = (props) => {
           @media (max-width: 479px) {
             .landing-page-text08 {
               font-size: 2rem;
-              text-align: center;
-            }
-            .landing-page-subheading {
-              font-size: 1.3rem;
               text-align: center;
             }
             .landing-page-links-container2 {
