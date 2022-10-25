@@ -46,7 +46,7 @@ const LandingPage = (props) => {
             <div data-type="MobileMenu" className="landing-page-mobile-menu">
               <div className="landing-page-nav">
                 <div className="landing-page-top">
-                  <h1 className="landing-page-logo1">Primojunior</h1>
+                  <h1 className="landing-page-logo1">PRIMOJR</h1>
                   <div
                     data-type="CloseMobileMenu"
                     className="landing-page-close-menu"
@@ -121,9 +121,7 @@ const LandingPage = (props) => {
           </nav>
           <div className="landing-page-hero">
             <div className="landing-page-content-container">
-              <h1 className="heading landing-page-text07">
-                Seja uma pessoa ilimitada
-              </h1>
+              <h1 className="landing-page-text07">Seja uma pessoa ilimitada</h1>
               <span className="landing-page-text08 subheading">
                 Estou escrevendo um e-book que vai te ajudar a descobrir o seu
                 Dom.
@@ -464,6 +462,15 @@ const LandingPage = (props) => {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+          }
+          .landing-page-text07 {
+            font-size: 3rem;
+            align-self: center;
+            font-family: Poppins;
+            font-weight: 700;
+            line-height: 1.55;
+            text-transform: none;
+            text-decoration: none;
           }
           .landing-page-text08 {
             color: #ffffff;
