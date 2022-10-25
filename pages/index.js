@@ -124,11 +124,14 @@ const LandingPage = (props) => {
               <h1 className="heading landing-page-text07">
                 Seja uma pessoa ilimitada
               </h1>
-              <span className="landing-page-text08">
+              <span className="landing-page-text08 subheading">
                 Estou escrevendo um e-book que vai te ajudar a descobrir o seu
                 Dom.
               </span>
-              <SolidButton button="Eu quero"></SolidButton>
+              <SolidButton
+                button="Eu quero"
+                rootClassName="solid-button-root-class-name"
+              ></SolidButton>
             </div>
           </div>
         </div>
@@ -272,7 +275,7 @@ const LandingPage = (props) => {
             align-items: center;
             flex-direction: column;
             background-size: cover;
-            background-image: url('/playground_assets/photo-1484627147104-f5197bcd6651-1500w.jpg');
+            background-image: url('/playground_assets/photo-1484627147104-f5197bcd6651%20%5B3%5D-1500w.webp');
             background-position: 0% 40%;
           }
           .landing-page-navbar {
@@ -303,15 +306,23 @@ const LandingPage = (props) => {
             justify-content: space-between;
           }
           .landing-page-text {
+            font-style: normal;
+            font-weight: 700;
             margin-right: var(--dl-space-space-doubleunit);
           }
           .landing-page-text01 {
+            font-style: normal;
+            font-weight: 700;
             margin-right: var(--dl-space-space-doubleunit);
           }
           .landing-page-text02 {
+            font-style: normal;
+            font-weight: 700;
             margin-right: var(--dl-space-space-doubleunit);
           }
           .landing-page-link01 {
+            font-style: normal;
+            font-weight: 700;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -455,6 +466,8 @@ const LandingPage = (props) => {
             flex-direction: column;
           }
           .landing-page-text08 {
+            color: #ffffff;
+            font-style: normal;
             padding-top: var(--dl-space-space-doubleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
@@ -590,6 +603,10 @@ const LandingPage = (props) => {
             .landing-page-hero {
               padding-left: var(--dl-space-space-tripleunit);
               padding-right: var(--dl-space-space-tripleunit);
+            }
+            .landing-page-text08 {
+              align-self: center;
+              text-align: center;
             }
             .landing-page-cards-container {
               justify-content: center;
