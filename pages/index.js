@@ -67,14 +67,7 @@ const LandingPage = (props) => {
                 </div>
               </div>
               <div className="landing-page-follow-container">
-                <span className="landing-page-text07">
-                  Follow us on
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                <span className="landing-page-text07">Segui o primo</span>
                 <div className="landing-page-icons-container">
                   <a
                     href="https://instagram.com"
