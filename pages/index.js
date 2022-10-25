@@ -41,7 +41,7 @@ const LandingPage = (props) => {
             <div data-type="MobileMenu" className="landing-page-mobile-menu">
               <div className="landing-page-nav">
                 <div className="landing-page-top">
-                  <h1>Travel</h1>
+                  <h1>Primojunior</h1>
                   <div
                     data-type="CloseMobileMenu"
                     className="landing-page-close-menu"
@@ -56,13 +56,13 @@ const LandingPage = (props) => {
                 </div>
                 <div className="landing-page-right-side1">
                   <div className="landing-page-links-container1">
-                    <span className="landing-page-text03">Home</span>
-                    <span className="landing-page-text04">About</span>
-                    <span className="landing-page-text05">Tour Packages</span>
-                    <span>Contact</span>
+                    <span className="landing-page-text03">inicio</span>
+                    <span className="landing-page-text04">Quem eu sou</span>
+                    <span className="landing-page-text05">empresa</span>
+                    <span>Contato</span>
                   </div>
                   <a href="#main-section" className="landing-page-link02">
-                    <SolidButton button="Explore places"></SolidButton>
+                    <SolidButton button="Projetos"></SolidButton>
                   </a>
                 </div>
               </div>
@@ -619,6 +619,9 @@ const LandingPage = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .landing-page-mobile-menu {
+              display: none;
+            }
             .landing-page-text08 {
               font-size: 2rem;
               text-align: center;
