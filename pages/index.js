@@ -168,7 +168,7 @@ const LandingPage = (props) => {
                   rel="noreferrer noopener"
                   className="landing-page-link09"
                 >
-                  Minha empresa
+                  Patrocinar
                 </a>
               </div>
               <div className="landing-page-container2">
@@ -654,6 +654,7 @@ const LandingPage = (props) => {
             }
             .landing-page-link09 {
               margin-bottom: var(--dl-space-space-halfunit);
+              text-decoration: none;
             }
             .landing-page-container2 {
               height: 100%;
