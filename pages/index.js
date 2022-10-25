@@ -15,7 +15,11 @@ const LandingPage = (props) => {
         </Head>
         <div className="landing-page-top-container">
           <nav data-role="Header" className="landing-page-navbar">
-            <h1>PRIMOJR</h1>
+            <Link href="/">
+              <a className="landing-page-link">
+                <h1 className="landing-page-logo">PRIMOJR</h1>
+              </a>
+            </Link>
             <div className="landing-page-right-side">
               <div className="landing-page-links-container">
                 <span className="landing-page-text">Inicio</span>
@@ -23,12 +27,12 @@ const LandingPage = (props) => {
                 <span className="landing-page-text02">projetos</span>
                 <a
                   href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                  className="landing-page-link"
+                  className="landing-page-link01"
                 >
                   Contato
                 </a>
               </div>
-              <a href="#main-section" className="landing-page-link01">
+              <a href="#main-section" className="landing-page-link02">
                 <SolidButton button="Acessar"></SolidButton>
               </a>
             </div>
@@ -58,13 +62,13 @@ const LandingPage = (props) => {
                 <div className="landing-page-right-side1">
                   <div className="landing-page-links-container1">
                     <Link href="/">
-                      <a className="landing-page-link02">inicio</a>
+                      <a className="landing-page-link03">inicio</a>
                     </Link>
                     <span className="landing-page-text03">Quem eu sou</span>
                     <span className="landing-page-text04">empresa</span>
                     <span>Contato</span>
                   </div>
-                  <a href="#main-section" className="landing-page-link03">
+                  <a href="#main-section" className="landing-page-link04">
                     <SolidButton button="Projetos"></SolidButton>
                   </a>
                 </div>
@@ -76,7 +80,7 @@ const LandingPage = (props) => {
                     href="https://instagram.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="landing-page-link04"
+                    className="landing-page-link05"
                   >
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
@@ -89,7 +93,7 @@ const LandingPage = (props) => {
                     href="https://facebook.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="landing-page-link05"
+                    className="landing-page-link06"
                   >
                     <svg
                       viewBox="0 0 602.2582857142856 1024"
@@ -102,7 +106,7 @@ const LandingPage = (props) => {
                     href="https://twitter.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="landing-page-link06"
+                    className="landing-page-link07"
                   >
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -154,7 +158,7 @@ const LandingPage = (props) => {
                   href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link07"
+                  className="landing-page-link08"
                 >
                   Meus projetos
                 </a>
@@ -162,7 +166,7 @@ const LandingPage = (props) => {
                   href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link08"
+                  className="landing-page-link09"
                 >
                   Minha empresa
                 </a>
@@ -172,7 +176,7 @@ const LandingPage = (props) => {
                   href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link09"
+                  className="landing-page-link10"
                 >
                   Minha história 
                 </a>
@@ -180,7 +184,7 @@ const LandingPage = (props) => {
                   href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link10"
+                  className="landing-page-link11"
                 >
                   Portifolio
                 </a>
@@ -188,7 +192,7 @@ const LandingPage = (props) => {
                   href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link11"
+                  className="landing-page-link12"
                 >
                   Politica de privacidade
                 </a>
@@ -196,7 +200,7 @@ const LandingPage = (props) => {
                   href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link12"
+                  className="landing-page-link13"
                 >
                   Contato
                 </a>
@@ -211,7 +215,7 @@ const LandingPage = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link13"
+                  className="landing-page-link14"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -224,7 +228,7 @@ const LandingPage = (props) => {
                   href="https://facebook.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link14"
+                  className="landing-page-link15"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
@@ -237,7 +241,7 @@ const LandingPage = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link15"
+                  className="landing-page-link16"
                 >
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
@@ -280,6 +284,12 @@ const LandingPage = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
+          .landing-page-link {
+            display: contents;
+          }
+          .landing-page-logo {
+            text-decoration: none;
+          }
           .landing-page-right-side {
             display: flex;
             align-items: center;
@@ -301,11 +311,11 @@ const LandingPage = (props) => {
           .landing-page-text02 {
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .landing-page-link {
+          .landing-page-link01 {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
-          .landing-page-link01 {
+          .landing-page-link02 {
             display: contents;
           }
           .landing-page-burger-menu {
@@ -370,7 +380,7 @@ const LandingPage = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .landing-page-link02 {
+          .landing-page-link03 {
             margin-bottom: 8px;
             text-decoration: none;
           }
@@ -380,7 +390,7 @@ const LandingPage = (props) => {
           .landing-page-text04 {
             margin-bottom: 8px;
           }
-          .landing-page-link03 {
+          .landing-page-link04 {
             display: contents;
           }
           .landing-page-follow-container {
@@ -399,21 +409,21 @@ const LandingPage = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .landing-page-link04 {
+          .landing-page-link05 {
             display: contents;
           }
           .landing-page-icon05 {
             width: 24px;
             height: 24px;
           }
-          .landing-page-link05 {
+          .landing-page-link06 {
             display: contents;
           }
           .landing-page-icon07 {
             width: 24px;
             height: 24px;
           }
-          .landing-page-link06 {
+          .landing-page-link07 {
             display: contents;
           }
           .landing-page-icon09 {
@@ -500,11 +510,11 @@ const LandingPage = (props) => {
             margin-left: 100px;
             flex-direction: column;
           }
-          .landing-page-link07 {
+          .landing-page-link08 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .landing-page-link08 {
+          .landing-page-link09 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
@@ -513,10 +523,6 @@ const LandingPage = (props) => {
             align-items: flex-start;
             margin-left: 100px;
             flex-direction: column;
-          }
-          .landing-page-link09 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
           }
           .landing-page-link10 {
             margin-bottom: var(--dl-space-space-unit);
@@ -527,6 +533,10 @@ const LandingPage = (props) => {
             text-decoration: none;
           }
           .landing-page-link12 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .landing-page-link13 {
             text-decoration: none;
           }
           .landing-page-follow-container1 {
@@ -546,7 +556,7 @@ const LandingPage = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .landing-page-link13 {
+          .landing-page-link14 {
             display: contents;
           }
           .landing-page-icon11 {
@@ -554,7 +564,7 @@ const LandingPage = (props) => {
             width: 24px;
             height: 24px;
           }
-          .landing-page-link14 {
+          .landing-page-link15 {
             display: contents;
           }
           .landing-page-icon13 {
@@ -562,7 +572,7 @@ const LandingPage = (props) => {
             width: 24px;
             height: 24px;
           }
-          .landing-page-link15 {
+          .landing-page-link16 {
             display: contents;
           }
           .landing-page-icon15 {
@@ -627,19 +637,16 @@ const LandingPage = (props) => {
               align-items: flex-start;
               justify-content: flex-start;
             }
-            .landing-page-link07 {
+            .landing-page-link08 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .landing-page-link08 {
+            .landing-page-link09 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .landing-page-container2 {
               height: 100%;
               align-items: flex-start;
               margin-left: 50px;
-            }
-            .landing-page-link09 {
-              margin-bottom: var(--dl-space-space-halfunit);
             }
             .landing-page-link10 {
               margin-bottom: var(--dl-space-space-halfunit);
@@ -648,6 +655,9 @@ const LandingPage = (props) => {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .landing-page-link12 {
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
+            .landing-page-link13 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .landing-page-follow-container1 {
