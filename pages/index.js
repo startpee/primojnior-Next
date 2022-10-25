@@ -645,6 +645,8 @@ const LandingPage = (props) => {
             }
             .landing-page-text08 {
               text-align: center;
+              padding-top: 4px;
+              padding-bottom: 4px;
             }
             .landing-page-main {
               padding-left: var(--dl-space-space-unit);
