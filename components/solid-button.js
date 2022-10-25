@@ -27,6 +27,11 @@ const SolidButton = (props) => {
           .solid-button-root-class-name {
             align-self: center;
           }
+          @media (max-width: 479px) {
+            .solid-button-root-class-name {
+              margin-top: var(--dl-space-space-unit);
+            }
+          }
         `}
       </style>
     </>
