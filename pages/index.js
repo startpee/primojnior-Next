@@ -46,7 +46,7 @@ const LandingPage = (props) => {
             <div data-type="MobileMenu" className="landing-page-mobile-menu">
               <div className="landing-page-nav">
                 <div className="landing-page-top">
-                  <h1>Primojunior</h1>
+                  <h1 className="landing-page-logo1">Primojunior</h1>
                   <div
                     data-type="CloseMobileMenu"
                     className="landing-page-close-menu"
@@ -62,14 +62,14 @@ const LandingPage = (props) => {
                 <div className="landing-page-right-side1">
                   <div className="landing-page-links-container1">
                     <Link href="/">
-                      <a className="landing-page-link03">inicio</a>
+                      <a className="landing-page-link03">Pagina inicial</a>
                     </Link>
                     <span className="landing-page-text03">Quem eu sou</span>
-                    <span className="landing-page-text04">empresa</span>
+                    <span className="landing-page-text04">Empresa</span>
                     <span>Contato</span>
                   </div>
                   <a href="#main-section" className="landing-page-link04">
-                    <SolidButton button="Projetos"></SolidButton>
+                    <SolidButton button="Parceria "></SolidButton>
                   </a>
                 </div>
               </div>
@@ -359,12 +359,17 @@ const LandingPage = (props) => {
           .landing-page-close-menu {
             flex: 0 0 auto;
             display: flex;
-            align-items: flex-start;
+            align-items: flex-end;
+            margin-left: 70px;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
+            margin-right: 20px;
             flex-direction: column;
+            justify-content: flex-start;
           }
           .landing-page-icon03 {
-            width: 24px;
             height: 24px;
+            align-self: flex-end;
           }
           .landing-page-right-side1 {
             width: 100%;
@@ -595,6 +600,13 @@ const LandingPage = (props) => {
             }
             .landing-page-burger-menu {
               display: flex;
+            }
+            .landing-page-logo1 {
+              align-self: center;
+              text-align: center;
+            }
+            .landing-page-icon03 {
+              align-self: flex-end;
             }
             .landing-page-hero {
               justify-content: center;
