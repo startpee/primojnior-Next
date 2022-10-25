@@ -344,7 +344,7 @@ const LandingPage = (props) => {
             align-items: center;
             margin-bottom: var(--dl-space-space-doubleunit);
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
           }
           .landing-page-close-menu {
             flex: 0 0 auto;
@@ -359,7 +359,7 @@ const LandingPage = (props) => {
           .landing-page-right-side1 {
             width: 100%;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: column;
             justify-content: space-between;
           }
@@ -385,7 +385,7 @@ const LandingPage = (props) => {
           }
           .landing-page-follow-container {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: column;
             justify-content: space-between;
           }
