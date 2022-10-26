@@ -259,7 +259,7 @@ const Patrocinar = (props) => {
             }
             .patrocinar-footer {
               width: 479px;
-              height: 333px;
+              height: 338px;
               padding-top: var(--dl-space-space-tripleunit);
               padding-left: var(--dl-space-space-tripleunit);
               padding-right: var(--dl-space-space-tripleunit);
@@ -302,8 +302,8 @@ const Patrocinar = (props) => {
               height: 31px;
             }
             .patrocinar-image1 {
-              width: 27px;
-              height: 28px;
+              width: 31px;
+              height: 27px;
             }
           }
         `}
