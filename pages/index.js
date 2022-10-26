@@ -163,7 +163,7 @@ const LandingPage = (props) => {
                 >
                   Meus projetos
                 </a>
-                <Link href="/parceiro">
+                <Link href="/patrocinar">
                   <a className="landing-page-link09">Patrocinar</a>
                 </Link>
               </div>
