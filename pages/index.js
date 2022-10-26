@@ -584,8 +584,8 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image {
-            width: 36px;
-            height: 37px;
+            width: 31px;
+            height: 39px;
             object-fit: cover;
             text-decoration: none;
           }
@@ -593,8 +593,8 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image1 {
-            width: 33px;
-            height: 31px;
+            width: 35px;
+            height: 35px;
             object-fit: cover;
             text-decoration: none;
           }
@@ -730,12 +730,12 @@ const LandingPage = (props) => {
               margin-left: 0px;
             }
             .landing-page-image {
-              width: 22px;
-              height: 24px;
+              width: 37px;
+              height: 32px;
             }
             .landing-page-image1 {
-              width: 22px;
-              height: 24px;
+              width: 29px;
+              height: 30px;
             }
           }
         `}
