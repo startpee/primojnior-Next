@@ -122,7 +122,10 @@ const Patrocinar = (props) => {
             justify-content: center;
           }
           .patrocinar-html-node {
-            width: 100%;
+            width: 799px;
+            height: 411px;
+            align-self: center;
+            margin-bottom: 270px;
           }
           .patrocinar-container1 {
             flex: 0 0 auto;
@@ -241,11 +244,19 @@ const Patrocinar = (props) => {
             text-decoration: none;
           }
           @media (max-width: 991px) {
+            .patrocinar-html-node {
+              width: 735px;
+              height: 375px;
+            }
             .patrocinar-footer {
               height: 265px;
             }
           }
           @media (max-width: 767px) {
+            .patrocinar-html-node {
+              width: 767px;
+              height: 415px;
+            }
             .patrocinar-menu {
               height: auto;
               flex-direction: column;
@@ -261,6 +272,8 @@ const Patrocinar = (props) => {
           }
           @media (max-width: 479px) {
             .patrocinar-html-node {
+              width: 479px;
+              height: 259px;
               align-self: center;
               margin-top: var(--dl-space-space-unit);
               margin-left: var(--dl-space-space-unit);
