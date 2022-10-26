@@ -256,6 +256,9 @@ const Patrocinar = (props) => {
               margin-right: var(--dl-space-space-unit);
               margin-bottom: 100px;
             }
+            .patrocinar-footer {
+              padding-top: 21px;
+            }
             .patrocinar-links-container {
               margin-top: var(--dl-space-space-doubleunit);
               align-items: flex-start;
