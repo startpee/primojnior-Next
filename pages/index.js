@@ -33,7 +33,7 @@ const LandingPage = (props) => {
                 </a>
               </div>
               <a href="#main-section" className="landing-page-link02">
-                <SolidButton button="Parceria"></SolidButton>
+                <SolidButton button="Patrocinar"></SolidButton>
               </a>
             </div>
             <div data-type="BurgerMenu" className="landing-page-burger-menu">
@@ -65,11 +65,11 @@ const LandingPage = (props) => {
                       <a className="landing-page-link03">Pagina inicial</a>
                     </Link>
                     <span className="landing-page-text03">Quem eu sou</span>
-                    <span className="landing-page-text04">Empresa</span>
+                    <span className="landing-page-text04">Projetos</span>
                     <span>Contato</span>
                   </div>
                   <a href="#main-section" className="landing-page-link04">
-                    <SolidButton button="Parceria "></SolidButton>
+                    <SolidButton button="Patrocinar"></SolidButton>
                   </a>
                 </div>
               </div>
@@ -656,7 +656,7 @@ const LandingPage = (props) => {
           }
           @media (max-width: 479px) {
             .landing-page-mobile-menu {
-              display: none;
+              display: flex;
             }
             .landing-page-text07 {
               font-size: 2rem;
