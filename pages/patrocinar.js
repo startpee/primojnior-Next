@@ -85,8 +85,8 @@ const Patrocinar = (props) => {
                   className="patrocinar-link7"
                 >
                   <img
-                    src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
                     alt="image"
+                    src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
                     className="patrocinar-image"
                   />
                 </a>
@@ -95,8 +95,8 @@ const Patrocinar = (props) => {
                   className="patrocinar-link8"
                 >
                   <img
-                    src="/playground_assets/icons8-tiktok%20%5B1%5D.svg"
                     alt="image"
+                    src="/playground_assets/icons8-tiktok%20%5B1%5D.svg"
                     className="patrocinar-image1"
                   />
                 </a>

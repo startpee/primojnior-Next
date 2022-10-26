@@ -217,8 +217,8 @@ const LandingPage = (props) => {
                     className="landing-page-link14"
                   >
                     <img
-                      src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
                       alt="image"
+                      src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
                       className="landing-page-image"
                     />
                   </a>
@@ -227,8 +227,8 @@ const LandingPage = (props) => {
                     className="landing-page-link15"
                   >
                     <img
-                      src="/playground_assets/icons8-tiktok%20%5B1%5D.svg"
                       alt="image"
+                      src="/playground_assets/icons8-tiktok%20%5B1%5D.svg"
                       className="landing-page-image1"
                     />
                   </a>
@@ -577,14 +577,15 @@ const LandingPage = (props) => {
           }
           .landing-page-icon11 {
             fill: var(--dl-color-gray-white);
-            width: 24px;
-            height: 24px;
+            width: 40px;
+            height: 35px;
           }
           .landing-page-link14 {
             display: contents;
           }
           .landing-page-image {
-            width: 100px;
+            width: 36px;
+            height: 37px;
             object-fit: cover;
             text-decoration: none;
           }
@@ -592,7 +593,8 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image1 {
-            width: 100px;
+            width: 32px;
+            height: 34px;
             object-fit: cover;
             text-decoration: none;
           }
@@ -607,6 +609,22 @@ const LandingPage = (props) => {
             }
             .landing-page-cards-container {
               justify-content: center;
+            }
+            .landing-page-text09 {
+              text-align: center;
+            }
+            .landing-page-icon11 {
+              width: 28px;
+              height: 28px;
+            }
+            .landing-page-image {
+              width: 27px;
+              height: 31px;
+            }
+            .landing-page-image1 {
+              width: 31px;
+              height: 29px;
+              padding-top: 0px;
             }
           }
           @media (max-width: 767px) {
@@ -651,6 +669,21 @@ const LandingPage = (props) => {
             }
             .landing-page-container1 {
               margin-left: 0px;
+            }
+            .landing-page-icons-container1 {
+              width: 127px;
+            }
+            .landing-page-icon11 {
+              width: 36px;
+              height: 31px;
+            }
+            .landing-page-image {
+              width: 34px;
+              height: 34px;
+            }
+            .landing-page-image1 {
+              width: 34px;
+              height: 33px;
             }
           }
           @media (max-width: 479px) {
