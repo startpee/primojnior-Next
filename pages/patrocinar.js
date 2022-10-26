@@ -131,7 +131,6 @@ const Patrocinar = (props) => {
             color: var(--dl-color-gray-white);
             width: 100%;
             display: flex;
-            padding: var(--dl-space-space-tripleunit);
             align-items: center;
             flex-direction: row;
             justify-content: center;
@@ -247,6 +246,12 @@ const Patrocinar = (props) => {
               margin-left: var(--dl-space-space-unit);
               margin-right: var(--dl-space-space-unit);
               margin-bottom: 190px;
+            }
+            .patrocinar-footer {
+              padding-top: var(--dl-space-space-tripleunit);
+              padding-left: var(--dl-space-space-tripleunit);
+              padding-right: var(--dl-space-space-tripleunit);
+              padding-bottom: var(--dl-space-space-tripleunit);
             }
             .patrocinar-links-container {
               margin-top: var(--dl-space-space-doubleunit);
