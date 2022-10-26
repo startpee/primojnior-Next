@@ -130,7 +130,9 @@ const Patrocinar = (props) => {
           .patrocinar-footer {
             color: var(--dl-color-gray-white);
             width: 100%;
+            height: 229px;
             display: flex;
+            padding: var(--dl-space-space-tripleunit);
             align-items: center;
             flex-direction: row;
             justify-content: center;
@@ -207,14 +209,15 @@ const Patrocinar = (props) => {
           }
           .patrocinar-icon {
             fill: var(--dl-color-gray-white);
-            width: 24px;
-            height: 24px;
+            width: 35px;
+            height: 31px;
           }
           .patrocinar-link7 {
             display: contents;
           }
           .patrocinar-image {
-            width: 100px;
+            width: 37px;
+            height: 34px;
             object-fit: cover;
             text-decoration: none;
           }
@@ -222,12 +225,19 @@ const Patrocinar = (props) => {
             display: contents;
           }
           .patrocinar-image1 {
-            width: 100px;
+            width: 31px;
+            height: 32px;
             object-fit: cover;
             text-decoration: none;
           }
+          @media (max-width: 991px) {
+            .patrocinar-footer {
+              height: 265px;
+            }
+          }
           @media (max-width: 767px) {
             .patrocinar-menu {
+              height: auto;
               flex-direction: column;
             }
             .patrocinar-links-container {
@@ -248,6 +258,8 @@ const Patrocinar = (props) => {
               margin-bottom: 190px;
             }
             .patrocinar-footer {
+              width: 479px;
+              height: 333px;
               padding-top: var(--dl-space-space-tripleunit);
               padding-left: var(--dl-space-space-tripleunit);
               padding-right: var(--dl-space-space-tripleunit);
@@ -286,12 +298,12 @@ const Patrocinar = (props) => {
               margin-left: 0px;
             }
             .patrocinar-image {
-              width: 22px;
-              height: 24px;
+              width: 37px;
+              height: 31px;
             }
             .patrocinar-image1 {
-              width: 22px;
-              height: 24px;
+              width: 27px;
+              height: 28px;
             }
           }
         `}

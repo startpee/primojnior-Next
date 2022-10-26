@@ -593,8 +593,8 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image1 {
-            width: 32px;
-            height: 34px;
+            width: 33px;
+            height: 31px;
             object-fit: cover;
             text-decoration: none;
           }
