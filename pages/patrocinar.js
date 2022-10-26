@@ -18,88 +18,89 @@ const Patrocinar = (props) => {
             }}
           />
         </div>
-        <div className="patrocinar-container1"></div>
-        <div className="patrocinar-footer">
-          <div className="patrocinar-menu">
-            <h1>PRIMOJR</h1>
-            <div className="patrocinar-links-container">
-              <div className="patrocinar-container2">
-                <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="patrocinar-link"
-                >
-                  Meus projetos
-                </a>
-                <Link href="/patrocinar">
-                  <a className="patrocinar-link1">Patrocinar</a>
-                </Link>
-              </div>
-              <div className="patrocinar-container3">
-                <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="patrocinar-link2"
-                >
-                  Minha história 
-                </a>
-                <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="patrocinar-link3"
-                >
-                  Portifolio
-                </a>
-                <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="patrocinar-link4"
-                >
-                  Politica de privacidade
-                </a>
-                <Link href="/chat">
-                  <a className="patrocinar-link5">Contato</a>
-                </Link>
-              </div>
-            </div>
-            <div className="patrocinar-follow-container">
-              <span className="patrocinar-text">Me acompanhe nas redes</span>
-              <div className="patrocinar-icons-container">
-                <a
-                  href="https://www.instagram.com/oprimojunior/"
-                  className="patrocinar-link6"
-                >
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="patrocinar-icon"
+        <div className="patrocinar-container1">
+          <div className="patrocinar-footer">
+            <div className="patrocinar-menu">
+              <h1>PRIMOJR</h1>
+              <div className="patrocinar-links-container">
+                <div className="patrocinar-container2">
+                  <a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="patrocinar-link"
                   >
-                    <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                  </svg>
-                </a>
-                <a
-                  href="https://www.youtube.com/channel/UCVLuKfabpsJu5zIdv7kGSKg/"
-                  className="patrocinar-link7"
-                >
-                  <img
-                    alt="image"
-                    src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
-                    className="patrocinar-image"
-                  />
-                </a>
-                <a
-                  href="https://www.tiktok.com/@oprimojunior"
-                  className="patrocinar-link8"
-                >
-                  <img
-                    alt="image"
-                    src="/playground_assets/icons8-tiktok%20%5B1%5D.svg"
-                    className="patrocinar-image1"
-                  />
-                </a>
+                    Meus projetos
+                  </a>
+                  <Link href="/patrocinar">
+                    <a className="patrocinar-link1">Patrocinar</a>
+                  </Link>
+                </div>
+                <div className="patrocinar-container3">
+                  <a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="patrocinar-link2"
+                  >
+                    Minha história 
+                  </a>
+                  <a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="patrocinar-link3"
+                  >
+                    Portifolio
+                  </a>
+                  <a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="patrocinar-link4"
+                  >
+                    Politica de privacidade
+                  </a>
+                  <Link href="/chat">
+                    <a className="patrocinar-link5">Contato</a>
+                  </Link>
+                </div>
+              </div>
+              <div className="patrocinar-follow-container">
+                <span className="patrocinar-text">Me acompanhe nas redes</span>
+                <div className="patrocinar-icons-container">
+                  <a
+                    href="https://www.instagram.com/oprimojunior/"
+                    className="patrocinar-link6"
+                  >
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="patrocinar-icon"
+                    >
+                      <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://www.youtube.com/channel/UCVLuKfabpsJu5zIdv7kGSKg/"
+                    className="patrocinar-link7"
+                  >
+                    <img
+                      alt="image"
+                      src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
+                      className="patrocinar-image"
+                    />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@oprimojunior"
+                    className="patrocinar-link8"
+                  >
+                    <img
+                      alt="image"
+                      src="/playground_assets/icons8-tiktok%20%5B1%5D.svg"
+                      className="patrocinar-image1"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -122,7 +123,6 @@ const Patrocinar = (props) => {
           .patrocinar-container1 {
             flex: 0 0 auto;
             width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 100px;
             display: flex;
             align-items: flex-start;
