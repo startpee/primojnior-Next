@@ -32,9 +32,14 @@ const LandingPage = (props) => {
                   Contato
                 </a>
               </div>
-              <a href="#main-section" className="landing-page-link02">
-                <SolidButton button="Patrocinar"></SolidButton>
-              </a>
+              <Link href="/patrocinar">
+                <a className="landing-page-link02">
+                  <SolidButton
+                    button="Patrocinar"
+                    className="landing-page-component"
+                  ></SolidButton>
+                </a>
+              </Link>
             </div>
             <div data-type="BurgerMenu" className="landing-page-burger-menu">
               <svg viewBox="0 0 1024 1024" className="landing-page-burger-menu">
@@ -309,6 +314,9 @@ const LandingPage = (props) => {
           }
           .landing-page-link02 {
             display: contents;
+          }
+          .landing-page-component {
+            text-decoration: none;
           }
           .landing-page-burger-menu {
             display: none;
@@ -646,7 +654,7 @@ const LandingPage = (props) => {
           }
           @media (max-width: 479px) {
             .landing-page-mobile-menu {
-              display: flex;
+              display: none;
             }
             .landing-page-text07 {
               font-size: 2rem;
