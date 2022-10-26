@@ -73,9 +73,14 @@ const LandingPage = (props) => {
                     <span className="landing-page-text04">Projetos</span>
                     <span>Contato</span>
                   </div>
-                  <a href="#main-section" className="landing-page-link04">
-                    <SolidButton button="Patrocinar"></SolidButton>
-                  </a>
+                  <Link href="/patrocinar">
+                    <a className="landing-page-link04">
+                      <SolidButton
+                        button="Patrocinar"
+                        className="landing-page-component1"
+                      ></SolidButton>
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="landing-page-follow-container">
@@ -393,6 +398,9 @@ const LandingPage = (props) => {
           .landing-page-link04 {
             display: contents;
           }
+          .landing-page-component1 {
+            text-decoration: none;
+          }
           .landing-page-follow-container {
             display: flex;
             align-items: center;
@@ -577,8 +585,8 @@ const LandingPage = (props) => {
           }
           .landing-page-icon11 {
             fill: var(--dl-color-gray-white);
-            width: 40px;
-            height: 35px;
+            width: 35px;
+            height: 40px;
           }
           .landing-page-link14 {
             display: contents;
@@ -587,14 +595,16 @@ const LandingPage = (props) => {
             width: 31px;
             height: 39px;
             object-fit: cover;
+            margin-left: 6px;
+            margin-right: 4px;
             text-decoration: none;
           }
           .landing-page-link15 {
             display: contents;
           }
           .landing-page-image1 {
-            width: 35px;
-            height: 35px;
+            width: 40px;
+            height: 36px;
             object-fit: cover;
             text-decoration: none;
           }
