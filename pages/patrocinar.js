@@ -254,7 +254,7 @@ const Patrocinar = (props) => {
               margin-top: var(--dl-space-space-unit);
               margin-left: var(--dl-space-space-unit);
               margin-right: var(--dl-space-space-unit);
-              margin-bottom: 190px;
+              margin-bottom: 100px;
             }
             .patrocinar-links-container {
               margin-top: var(--dl-space-space-doubleunit);
