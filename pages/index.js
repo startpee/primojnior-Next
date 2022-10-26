@@ -594,15 +594,15 @@ const LandingPage = (props) => {
           }
           .landing-page-icon11 {
             fill: var(--dl-color-gray-white);
-            width: 35px;
-            height: 40px;
+            width: 41px;
+            height: 31px;
           }
           .landing-page-link14 {
             display: contents;
           }
           .landing-page-image {
-            width: 31px;
-            height: 39px;
+            width: 30px;
+            height: 35px;
             object-fit: cover;
             margin-left: 6px;
             margin-right: 4px;
@@ -612,8 +612,8 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image1 {
-            width: 40px;
-            height: 36px;
+            width: 35px;
+            height: 35px;
             object-fit: cover;
             text-decoration: none;
           }
