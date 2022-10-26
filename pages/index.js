@@ -32,14 +32,17 @@ const LandingPage = (props) => {
                   Contato
                 </a>
               </div>
-              <Link href="/patrocinar">
-                <a className="landing-page-link02">
-                  <SolidButton
-                    button="Patrocinar"
-                    className="landing-page-component"
-                  ></SolidButton>
-                </a>
-              </Link>
+              <a
+                href="https://primojunior.com/patrocinar"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="landing-page-link02"
+              >
+                <SolidButton
+                  button="Patrocinar"
+                  className="landing-page-component"
+                ></SolidButton>
+              </a>
             </div>
             <div data-type="BurgerMenu" className="landing-page-burger-menu">
               <svg viewBox="0 0 1024 1024" className="landing-page-burger-menu">
@@ -73,14 +76,17 @@ const LandingPage = (props) => {
                     <span className="landing-page-text04">Projetos</span>
                     <span>Contato</span>
                   </div>
-                  <Link href="/patrocinar">
-                    <a className="landing-page-link04">
-                      <SolidButton
-                        button="Patrocinar"
-                        className="landing-page-component1"
-                      ></SolidButton>
-                    </a>
-                  </Link>
+                  <a
+                    href="https://primojunior.com/patrocinar"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="landing-page-link04"
+                  >
+                    <SolidButton
+                      button="Patrocinar"
+                      className="landing-page-component1"
+                    ></SolidButton>
+                  </a>
                 </div>
               </div>
               <div className="landing-page-follow-container">
@@ -166,9 +172,14 @@ const LandingPage = (props) => {
                 >
                   Meus projetos
                 </a>
-                <Link href="/patrocinar">
-                  <a className="landing-page-link08">Patrocinar</a>
-                </Link>
+                <a
+                  href="https://primojunior.com/patrocinar"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="landing-page-link08"
+                >
+                  Patrocinar
+                </a>
               </div>
               <div className="landing-page-container2">
                 <a

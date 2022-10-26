@@ -36,9 +36,12 @@ const Patrocinar = (props) => {
                   >
                     Meus projetos
                   </a>
-                  <Link href="/patrocinar">
-                    <a className="patrocinar-link02">Patrocinar</a>
-                  </Link>
+                  <a
+                    href="https://primojunior.com/patrocinar"
+                    className="patrocinar-link02"
+                  >
+                    Patrocinar
+                  </a>
                 </div>
                 <div className="patrocinar-container3">
                   <a
