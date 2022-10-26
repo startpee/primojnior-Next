@@ -34,6 +34,8 @@ const LandingPage = (props) => {
               </div>
               <a
                 href="https://primojunior.com/patrocinar"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="landing-page-link02"
               >
                 <SolidButton
