@@ -254,7 +254,7 @@ const Patrocinar = (props) => {
               padding-bottom: var(--dl-space-space-tripleunit);
             }
             .patrocinar-links-container {
-              margin-top: var(--dl-space-space-doubleunit);
+              margin-top: 20px;
               align-items: flex-start;
               justify-content: flex-start;
             }
