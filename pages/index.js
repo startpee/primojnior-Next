@@ -693,6 +693,14 @@ const LandingPage = (props) => {
               font-size: 2rem;
               text-align: center;
             }
+            .landing-page-logo2 {
+              font-size: 2rem;
+              font-family: Poppins;
+              font-weight: 700;
+              line-height: 1.55;
+              text-transform: none;
+              text-decoration: none;
+            }
             .landing-page-links-container2 {
               margin-top: var(--dl-space-space-doubleunit);
               align-items: flex-start;
