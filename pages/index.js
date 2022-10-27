@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import SolidButton from '../components/solid-button'
-import PlaceCard from '../components/place-card'
 
 const LandingPage = (props) => {
   return (
@@ -148,14 +147,14 @@ const LandingPage = (props) => {
             }}
           />
         </div>
-        <div id="main-section" className="landing-page-main">
-          <div className="landing-page-cards-container">
-            <PlaceCard
-              city="Piauí "
-              image="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-              rootClassName="place-card-root-class-name"
-            ></PlaceCard>
-          </div>
+        <h1 className="landing-page-logo2">Podcast do primo</h1>
+        <div className="landing-page-html-node1">
+          <span
+            dangerouslySetInnerHTML={{
+              __html:
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0LzVGwtBYHnWAByDNLNn3b?utm_source=generator"\r\n    width="100%" height="352" frameBorder="0" allowfullscreen=""\r\n    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
+            }}
+          />
         </div>
         <div className="landing-page-footer">
           <div className="landing-page-menu">
@@ -482,29 +481,17 @@ const LandingPage = (props) => {
             height: 100%;
             margin-top: 40px;
           }
-          .landing-page-main {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-quadruple);
-            padding-left: var(--dl-space-space-doubleunit);
-            padding-right: var(--dl-space-space-doubleunit);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-quadruple);
-            justify-content: flex-start;
+          .landing-page-logo2 {
+            font-size: 3rem;
+            font-family: Poppins;
+            font-weight: 700;
+            line-height: 1.55;
+            margin-bottom: 4px;
+            text-transform: none;
+            text-decoration: none;
           }
-          .landing-page-cards-container {
+          .landing-page-html-node1 {
             width: 100%;
-            display: none;
-            grid-gap: var(--dl-space-space-doubleunit);
-            flex-wrap: wrap;
-            max-width: 1000px;
-            align-self: center;
-            margin-top: var(--dl-space-space-doubleunit);
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-doubleunit);
-            flex-direction: row;
-            justify-content: space-between;
           }
           .landing-page-footer {
             color: var(--dl-color-gray-white);
@@ -626,9 +613,6 @@ const LandingPage = (props) => {
               align-self: center;
               text-align: center;
             }
-            .landing-page-cards-container {
-              justify-content: center;
-            }
             .landing-page-text09 {
               text-align: center;
             }
@@ -673,10 +657,6 @@ const LandingPage = (props) => {
               text-align: center;
               padding-top: 4px;
               padding-bottom: 4px;
-            }
-            .landing-page-main {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
             }
             .landing-page-menu {
               flex-direction: column;
