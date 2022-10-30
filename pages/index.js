@@ -170,10 +170,18 @@ const LandingPage = (props) => {
                   Meus projetos
                 </a>
                 <a
-                  href="https://primojunior.com/patrocinar"
+                  href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="landing-page-link08"
+                >
+                  Portifolio Exemplos
+                </a>
+                <a
+                  href="https://primojunior.com/patrocinar"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="landing-page-link09"
                 >
                   Patrocinar
                 </a>
@@ -183,17 +191,9 @@ const LandingPage = (props) => {
                   href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link09"
-                >
-                  Minha história 
-                </a>
-                <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
                   className="landing-page-link10"
                 >
-                  Portifolio
+                  Minha história 
                 </a>
                 <a
                   href="https://example.com"
@@ -531,15 +531,15 @@ const LandingPage = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
+          .landing-page-link09 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
           .landing-page-container2 {
             display: flex;
             align-items: flex-start;
             margin-left: 100px;
             flex-direction: column;
-          }
-          .landing-page-link09 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
           }
           .landing-page-link10 {
             margin-bottom: var(--dl-space-space-unit);
@@ -711,15 +711,15 @@ const LandingPage = (props) => {
             }
             .landing-page-link08 {
               margin-bottom: var(--dl-space-space-halfunit);
+            }
+            .landing-page-link09 {
+              margin-bottom: var(--dl-space-space-halfunit);
               text-decoration: none;
             }
             .landing-page-container2 {
               height: 100%;
               align-items: flex-start;
               margin-left: 50px;
-            }
-            .landing-page-link09 {
-              margin-bottom: var(--dl-space-space-halfunit);
             }
             .landing-page-link10 {
               margin-bottom: var(--dl-space-space-halfunit);
