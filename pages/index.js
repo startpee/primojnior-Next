@@ -630,7 +630,8 @@ const LandingPage = (props) => {
             justify-content: center;
           }
           .landing-page-icons-container1 {
-            width: 100px;
+            width: 424px;
+            height: 39px;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
@@ -641,14 +642,16 @@ const LandingPage = (props) => {
           }
           .landing-page-icon11 {
             fill: var(--dl-color-gray-white);
-            width: 40px;
+            width: 35px;
             height: auto;
+            margin-left: 3px;
+            margin-right: 3px;
           }
           .landing-page-link14 {
             display: contents;
           }
           .landing-page-image {
-            width: 30%;
+            width: 35px;
             height: auto;
             object-fit: cover;
             margin-left: 3px;
@@ -659,7 +662,7 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image1 {
-            width: 100px;
+            width: 35px;
             object-fit: cover;
             margin-left: 3px;
             margin-right: 3px;
@@ -669,7 +672,7 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image2 {
-            width: 40px;
+            width: 35px;
             height: 27px;
             object-fit: cover;
             margin-left: 3px;
@@ -680,7 +683,7 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image3 {
-            width: 100px;
+            width: 35px;
             object-fit: cover;
             margin-left: 3px;
             margin-right: 3px;
@@ -690,7 +693,7 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image4 {
-            width: 100px;
+            width: 36px;
             object-fit: cover;
             margin-left: 3px;
             margin-right: 3px;
@@ -700,8 +703,10 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image5 {
-            width: 100px;
+            width: 36px;
             object-fit: cover;
+            margin-left: 3px;
+            margin-right: 3px;
             text-decoration: none;
           }
           @media (max-width: 991px) {
@@ -829,15 +834,17 @@ const LandingPage = (props) => {
               margin-left: 0px;
             }
             .landing-page-icons-container1 {
-              width: 116px;
+              width: 255px;
             }
             .landing-page-icon11 {
-              width: 30%;
+              width: 24%;
               height: auto;
+              margin-left: 3px;
+              margin-right: 3px;
             }
             .landing-page-image {
-              width: 26%;
-              height: auto;
+              width: 41px;
+              height: 33px;
             }
             .landing-page-image1 {
               width: 40px;
@@ -847,6 +854,10 @@ const LandingPage = (props) => {
             }
             .landing-page-image3 {
               width: 30%;
+            }
+            .landing-page-image5 {
+              margin-left: 3px;
+              margin-right: 3px;
             }
           }
         `}
