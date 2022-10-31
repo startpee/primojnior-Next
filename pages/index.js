@@ -277,6 +277,16 @@ const LandingPage = (props) => {
                           className="landing-page-image4"
                         />
                       </a>
+                      <a
+                        href="https://www.linkedin.com/in/oprimojunior/"
+                        className="landing-page-link19"
+                      >
+                        <img
+                          src="/playground_assets/icons8-linkedin-circled.svg"
+                          alt="image"
+                          className="landing-page-image5"
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -659,7 +669,8 @@ const LandingPage = (props) => {
             display: contents;
           }
           .landing-page-image2 {
-            width: 100px;
+            width: 40px;
+            height: 27px;
             object-fit: cover;
             margin-left: 3px;
             margin-right: 3px;
@@ -683,6 +694,14 @@ const LandingPage = (props) => {
             object-fit: cover;
             margin-left: 3px;
             margin-right: 3px;
+            text-decoration: none;
+          }
+          .landing-page-link19 {
+            display: contents;
+          }
+          .landing-page-image5 {
+            width: 100px;
+            object-fit: cover;
             text-decoration: none;
           }
           @media (max-width: 991px) {
@@ -808,6 +827,9 @@ const LandingPage = (props) => {
             }
             .landing-page-follow-container2 {
               margin-left: 0px;
+            }
+            .landing-page-icons-container1 {
+              width: 116px;
             }
             .landing-page-icon11 {
               width: 30%;
