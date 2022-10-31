@@ -641,6 +641,8 @@ const LandingPage = (props) => {
             width: 30%;
             height: auto;
             object-fit: cover;
+            margin-left: 3px;
+            margin-right: 3px;
             text-decoration: none;
           }
           .landing-page-link15 {
@@ -649,6 +651,8 @@ const LandingPage = (props) => {
           .landing-page-image1 {
             width: 100px;
             object-fit: cover;
+            margin-left: 3px;
+            margin-right: 3px;
             text-decoration: none;
           }
           .landing-page-link16 {
@@ -657,6 +661,8 @@ const LandingPage = (props) => {
           .landing-page-image2 {
             width: 100px;
             object-fit: cover;
+            margin-left: 3px;
+            margin-right: 3px;
             text-decoration: none;
           }
           .landing-page-link17 {
@@ -665,6 +671,8 @@ const LandingPage = (props) => {
           .landing-page-image3 {
             width: 100px;
             object-fit: cover;
+            margin-left: 3px;
+            margin-right: 3px;
             text-decoration: none;
           }
           .landing-page-link18 {
@@ -673,6 +681,8 @@ const LandingPage = (props) => {
           .landing-page-image4 {
             width: 100px;
             object-fit: cover;
+            margin-left: 3px;
+            margin-right: 3px;
             text-decoration: none;
           }
           @media (max-width: 991px) {
@@ -804,7 +814,7 @@ const LandingPage = (props) => {
               height: auto;
             }
             .landing-page-image {
-              width: 30%;
+              width: 26%;
               height: auto;
             }
             .landing-page-image1 {
