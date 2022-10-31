@@ -213,38 +213,72 @@ const LandingPage = (props) => {
                 <span className="landing-page-text09">
                   Me acompanhe nas redes
                 </span>
-                <div className="landing-page-icons-container1">
-                  <a
-                    href="https://www.instagram.com/oprimojunior/"
-                    className="landing-page-link13"
-                  >
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      className="landing-page-icon11"
-                    >
-                      <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                    </svg>
-                  </a>
-                  <a
-                    href="https://www.youtube.com/channel/UCVLuKfabpsJu5zIdv7kGSKg/"
-                    className="landing-page-link14"
-                  >
-                    <img
-                      alt="image"
-                      src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
-                      className="landing-page-image"
-                    />
-                  </a>
-                  <a
-                    href="https://www.tiktok.com/@oprimojunior"
-                    className="landing-page-link15"
-                  >
-                    <img
-                      alt="image"
-                      src="/playground_assets/icons8-tiktok%20%5B1%5D.svg"
-                      className="landing-page-image1"
-                    />
-                  </a>
+                <div className="landing-page-container3">
+                  <div className="landing-page-container4">
+                    <div className="landing-page-icons-container1">
+                      <a
+                        href="https://www.instagram.com/oprimojunior/"
+                        className="landing-page-link13"
+                      >
+                        <svg
+                          viewBox="0 0 877.7142857142857 1024"
+                          className="landing-page-icon11"
+                        >
+                          <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://www.tiktok.com/@oprimojunior"
+                        className="landing-page-link14"
+                      >
+                        <img
+                          alt="image"
+                          src="/playground_assets/icons8-tiktok%20%5B1%5D.svg"
+                          className="landing-page-image"
+                        />
+                      </a>
+                      <a
+                        href="https://twitter.com/oprimojunior"
+                        className="landing-page-link15"
+                      >
+                        <img
+                          src="/playground_assets/icons8-twitter.svg"
+                          alt="image"
+                          className="landing-page-image1"
+                        />
+                      </a>
+                      <a
+                        href="https://www.youtube.com/channel/UCVLuKfabpsJu5zIdv7kGSKg/"
+                        className="landing-page-link16"
+                      >
+                        <img
+                          src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
+                          alt="image"
+                          className="landing-page-image2"
+                        />
+                      </a>
+                      <a
+                        href="https://br.pinterest.com/oprimojunior/"
+                        className="landing-page-link17"
+                      >
+                        <img
+                          src="/playground_assets/icons8-pinterest.svg"
+                          alt="image"
+                          className="landing-page-image3"
+                        />
+                      </a>
+                      <a
+                        href="https://www.facebook.com/oprimojunior.oficial"
+                        className="landing-page-link18"
+                      >
+                        <img
+                          src="/playground_assets/icons8-facebook.svg"
+                          alt="image"
+                          className="landing-page-image4"
+                        />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -569,6 +603,22 @@ const LandingPage = (props) => {
           .landing-page-text09 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
+          .landing-page-container3 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .landing-page-container4 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
           .landing-page-icons-container1 {
             width: 100px;
             display: flex;
@@ -581,26 +631,47 @@ const LandingPage = (props) => {
           }
           .landing-page-icon11 {
             fill: var(--dl-color-gray-white);
-            width: 41px;
-            height: 31px;
+            width: 40px;
+            height: auto;
           }
           .landing-page-link14 {
             display: contents;
           }
           .landing-page-image {
-            width: 30px;
-            height: 35px;
+            width: 30%;
+            height: auto;
             object-fit: cover;
-            margin-left: 6px;
-            margin-right: 4px;
             text-decoration: none;
           }
           .landing-page-link15 {
             display: contents;
           }
           .landing-page-image1 {
-            width: 35px;
-            height: 35px;
+            width: 100px;
+            object-fit: cover;
+            text-decoration: none;
+          }
+          .landing-page-link16 {
+            display: contents;
+          }
+          .landing-page-image2 {
+            width: 100px;
+            object-fit: cover;
+            text-decoration: none;
+          }
+          .landing-page-link17 {
+            display: contents;
+          }
+          .landing-page-image3 {
+            width: 100px;
+            object-fit: cover;
+            text-decoration: none;
+          }
+          .landing-page-link18 {
+            display: contents;
+          }
+          .landing-page-image4 {
+            width: 100px;
             object-fit: cover;
             text-decoration: none;
           }
@@ -621,10 +692,6 @@ const LandingPage = (props) => {
               height: 28px;
             }
             .landing-page-image {
-              width: 27px;
-              height: 31px;
-            }
-            .landing-page-image1 {
               width: 31px;
               height: 29px;
               padding-top: 0px;
@@ -677,10 +744,6 @@ const LandingPage = (props) => {
               height: 31px;
             }
             .landing-page-image {
-              width: 34px;
-              height: 34px;
-            }
-            .landing-page-image1 {
               width: 34px;
               height: 33px;
             }
@@ -736,13 +799,22 @@ const LandingPage = (props) => {
             .landing-page-follow-container2 {
               margin-left: 0px;
             }
+            .landing-page-icon11 {
+              width: 30%;
+              height: auto;
+            }
             .landing-page-image {
-              width: 37px;
-              height: 32px;
+              width: 30%;
+              height: auto;
             }
             .landing-page-image1 {
-              width: 29px;
-              height: 30px;
+              width: 40px;
+            }
+            .landing-page-image2 {
+              width: 30%;
+            }
+            .landing-page-image3 {
+              width: 30%;
             }
           }
         `}
