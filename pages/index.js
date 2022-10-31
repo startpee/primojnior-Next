@@ -211,7 +211,7 @@ const LandingPage = (props) => {
             <div className="landing-page-follow-container1">
               <div className="landing-page-follow-container2">
                 <span className="landing-page-text09">
-                  Me acompanhe nas redes
+                  Escolha uma das redes para me acompanhar
                 </span>
                 <div className="landing-page-container3">
                   <div className="landing-page-container4">
