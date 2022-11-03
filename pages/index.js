@@ -829,6 +829,9 @@ const LandingPage = (props) => {
               text-transform: none;
               text-decoration: none;
             }
+            .landing-page-text09 {
+              font-size: 1em;
+            }
             .landing-page-links-container2 {
               margin-top: var(--dl-space-space-doubleunit);
               align-items: flex-start;
