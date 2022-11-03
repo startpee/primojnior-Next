@@ -32,15 +32,15 @@ const Patrocinar = (props) => {
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="patrocinar-link01"
+                    className="patrocinar-link1"
                   >
                     Meus projetos
                   </a>
                   <a
                     href="https://primojunior.com/patrocinar"
-                    className="patrocinar-link02"
+                    className="patrocinar-link2"
                   >
-                    Patrocinar
+                    Portfólio exemplo
                   </a>
                 </div>
                 <div className="patrocinar-container3">
@@ -48,7 +48,7 @@ const Patrocinar = (props) => {
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="patrocinar-link03"
+                    className="patrocinar-link3"
                   >
                     Minha história 
                   </a>
@@ -56,57 +56,13 @@ const Patrocinar = (props) => {
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="patrocinar-link04"
-                  >
-                    Portifolio
-                  </a>
-                  <a
-                    href="https://example.com"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="patrocinar-link05"
+                    className="patrocinar-link4"
                   >
                     Politica de privacidade
                   </a>
                   <Link href="/chat">
-                    <a className="patrocinar-link06">Contato</a>
+                    <a className="patrocinar-link5">Contato</a>
                   </Link>
-                </div>
-              </div>
-              <div className="patrocinar-follow-container">
-                <span className="patrocinar-text">Me acompanhe nas redes</span>
-                <div className="patrocinar-icons-container">
-                  <a
-                    href="https://www.instagram.com/oprimojunior/"
-                    className="patrocinar-link07"
-                  >
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      className="patrocinar-icon"
-                    >
-                      <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                    </svg>
-                  </a>
-                  <a
-                    href="https://www.youtube.com/channel/UCVLuKfabpsJu5zIdv7kGSKg/"
-                    className="patrocinar-link08"
-                  >
-                    <img
-                      alt="image"
-                      src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
-                      className="patrocinar-image"
-                    />
-                  </a>
-                  <a
-                    href="https://www.tiktok.com/@oprimojunior"
-                    className="patrocinar-link09"
-                  >
-                    <img
-                      alt="image"
-                      src="/playground_assets/icons8-tiktok%20%5B1%5D.svg"
-                      className="patrocinar-image1"
-                    />
-                  </a>
                 </div>
               </div>
             </div>
@@ -174,11 +130,11 @@ const Patrocinar = (props) => {
             margin-left: 100px;
             flex-direction: column;
           }
-          .patrocinar-link01 {
+          .patrocinar-link1 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .patrocinar-link02 {
+          .patrocinar-link2 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
@@ -188,62 +144,15 @@ const Patrocinar = (props) => {
             margin-left: 100px;
             flex-direction: column;
           }
-          .patrocinar-link03 {
+          .patrocinar-link3 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .patrocinar-link04 {
+          .patrocinar-link4 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .patrocinar-link05 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .patrocinar-link06 {
-            text-decoration: none;
-          }
-          .patrocinar-follow-container {
-            display: flex;
-            align-items: center;
-            margin-left: 50px;
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .patrocinar-text {
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .patrocinar-icons-container {
-            width: 100px;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .patrocinar-link07 {
-            display: contents;
-          }
-          .patrocinar-icon {
-            fill: var(--dl-color-gray-white);
-            width: 35px;
-            height: 31px;
-          }
-          .patrocinar-link08 {
-            display: contents;
-          }
-          .patrocinar-image {
-            width: 37px;
-            height: 34px;
-            object-fit: cover;
-            text-decoration: none;
-          }
-          .patrocinar-link09 {
-            display: contents;
-          }
-          .patrocinar-image1 {
-            width: 31px;
-            height: 32px;
-            object-fit: cover;
+          .patrocinar-link5 {
             text-decoration: none;
           }
           @media (max-width: 991px) {
@@ -296,10 +205,10 @@ const Patrocinar = (props) => {
               align-items: flex-start;
               justify-content: flex-start;
             }
-            .patrocinar-link01 {
+            .patrocinar-link1 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .patrocinar-link02 {
+            .patrocinar-link2 {
               margin-bottom: var(--dl-space-space-halfunit);
               text-decoration: none;
             }
@@ -308,28 +217,14 @@ const Patrocinar = (props) => {
               align-items: flex-start;
               margin-left: 50px;
             }
-            .patrocinar-link03 {
+            .patrocinar-link3 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .patrocinar-link04 {
+            .patrocinar-link4 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .patrocinar-link05 {
+            .patrocinar-link5 {
               margin-bottom: var(--dl-space-space-halfunit);
-            }
-            .patrocinar-link06 {
-              margin-bottom: var(--dl-space-space-halfunit);
-            }
-            .patrocinar-follow-container {
-              margin-left: 0px;
-            }
-            .patrocinar-image {
-              width: 37px;
-              height: 31px;
-            }
-            .patrocinar-image1 {
-              width: 31px;
-              height: 27px;
             }
           }
         `}

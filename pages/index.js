@@ -242,8 +242,8 @@ const LandingPage = (props) => {
                         className="landing-page-link15"
                       >
                         <img
-                          src="/playground_assets/icons8-twitter.svg"
                           alt="image"
+                          src="/playground_assets/icons8-twitter.svg"
                           className="landing-page-image1"
                         />
                       </a>
@@ -252,8 +252,8 @@ const LandingPage = (props) => {
                         className="landing-page-link16"
                       >
                         <img
-                          src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
                           alt="image"
+                          src="/playground_assets/icons8-youtube%20%5B1%5D.svg"
                           className="landing-page-image2"
                         />
                       </a>
@@ -262,8 +262,8 @@ const LandingPage = (props) => {
                         className="landing-page-link17"
                       >
                         <img
-                          src="/playground_assets/icons8-pinterest.svg"
                           alt="image"
+                          src="/playground_assets/icons8-pinterest.svg"
                           className="landing-page-image3"
                         />
                       </a>
@@ -272,8 +272,8 @@ const LandingPage = (props) => {
                         className="landing-page-link18"
                       >
                         <img
-                          src="/playground_assets/icons8-facebook.svg"
                           alt="image"
+                          src="/playground_assets/icons8-facebook.svg"
                           className="landing-page-image4"
                         />
                       </a>
@@ -282,8 +282,8 @@ const LandingPage = (props) => {
                         className="landing-page-link19"
                       >
                         <img
-                          src="/playground_assets/icons8-linkedin-circled.svg"
                           alt="image"
+                          src="/playground_assets/icons8-linkedin-circled.svg"
                           className="landing-page-image5"
                         />
                       </a>
