@@ -559,6 +559,7 @@ const LandingPage = (props) => {
           .landing-page-text09 {
             color: rgb(255, 255, 255);
             margin-top: 10px;
+            text-align: center;
             margin-bottom: 10px;
             text-decoration: none;
             background-color: rgb(64, 40, 160);
