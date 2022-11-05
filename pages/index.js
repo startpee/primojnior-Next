@@ -43,19 +43,19 @@ const LandingPage = (props) => {
                 ></SolidButton>
               </a>
             </div>
-            <div data-type="BurgerMenu" className="landing-page-burger-menu">
+            <div data-role="BurgerMenu" className="landing-page-burger-menu">
               <svg viewBox="0 0 1024 1024" className="landing-page-burger-menu">
                 <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                 <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                 <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
               </svg>
             </div>
-            <div data-type="MobileMenu" className="landing-page-mobile-menu">
+            <div data-role="MobileMenu" className="landing-page-mobile-menu">
               <div className="landing-page-nav">
                 <div className="landing-page-top">
                   <h1 className="landing-page-logo1">PRIMOJR</h1>
                   <div
-                    data-type="CloseMobileMenu"
+                    data-role="CloseMobileMenu"
                     className="landing-page-close-menu"
                   >
                     <svg
@@ -227,7 +227,7 @@ const LandingPage = (props) => {
             <div className="landing-page-follow-container1">
               <div className="landing-page-follow-container2">
                 <span className="landing-page-text12">
-                  Me acompanhe nas redes
+                  Acompanhe o primo nas redes
                 </span>
                 <div className="landing-page-container3">
                   <div className="landing-page-container4">
