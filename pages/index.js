@@ -178,17 +178,13 @@ const LandingPage = (props) => {
             <div className="landing-page-links-container2">
               <div className="landing-page-container1">
                 <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href="https://blog.startpee.site/category/projeto/"
                   className="landing-page-link08"
                 >
                   Meus projetos
                 </a>
                 <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href="https://blog.startpee.site/category/portfolio/"
                   className="landing-page-link09"
                 >
                   Portifolio Exemplos
