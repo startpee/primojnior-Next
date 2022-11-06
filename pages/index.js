@@ -310,6 +310,22 @@ const LandingPage = (props) => {
             </div>
           </div>
         </div>
+        <a
+          href="https://startpee.site/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="landing-page-link21"
+        >
+          <span>
+            Site criado pela 
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span className="landing-page-text14">Startpee</span>
+        </a>
       </div>
       <style jsx>
         {`
@@ -739,6 +755,14 @@ const LandingPage = (props) => {
             margin-right: 3px;
             text-decoration: none;
           }
+          .landing-page-link21 {
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .landing-page-text14 {
+            font-style: normal;
+            font-weight: 700;
+          }
           @media (max-width: 991px) {
             .landing-page-hero {
               padding-left: var(--dl-space-space-tripleunit);
@@ -759,6 +783,9 @@ const LandingPage = (props) => {
               width: 31px;
               height: 29px;
               padding-top: 0px;
+            }
+            .landing-page-link21 {
+              text-align: center;
             }
           }
           @media (max-width: 767px) {
