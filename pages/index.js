@@ -21,12 +21,22 @@ const LandingPage = (props) => {
             </Link>
             <div className="landing-page-right-side">
               <div className="landing-page-links-container">
-                <span className="landing-page-text">Inicio</span>
-                <span className="landing-page-text01">Sobre</span>
-                <span className="landing-page-text02">projetos</span>
+                <a
+                  href="http://primojunior.com/"
+                  className="landing-page-link01"
+                >
+                  Inicio
+                </a>
+                <span className="landing-page-text">Sobre</span>
+                <a
+                  href="https://blog.startpee.site/category/projeto/"
+                  className="landing-page-link02"
+                >
+                  projetos
+                </a>
                 <a
                   href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                  className="landing-page-link01"
+                  className="landing-page-link03"
                 >
                   Contato
                 </a>
@@ -35,7 +45,7 @@ const LandingPage = (props) => {
                 href="https://primojunior.com/patrocinar"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="landing-page-link02"
+                className="landing-page-link04"
               >
                 <SolidButton
                   button="Patrocinar"
@@ -69,15 +79,15 @@ const LandingPage = (props) => {
                 <div className="landing-page-right-side1">
                   <div className="landing-page-links-container1">
                     <Link href="/">
-                      <a className="landing-page-link03">Pagina inicial</a>
+                      <a className="landing-page-link05">Pagina inicial</a>
                     </Link>
-                    <span className="landing-page-text03">Quem eu sou</span>
-                    <span className="landing-page-text04">Projetos</span>
+                    <span className="landing-page-text01">Quem eu sou</span>
+                    <span className="landing-page-text02">Projetos</span>
                     <span>Contato</span>
                   </div>
                   <a
                     href="https://primojunior.com/patrocinar"
-                    className="landing-page-link04"
+                    className="landing-page-link06"
                   >
                     <SolidButton
                       button="Patrocinar"
@@ -87,13 +97,13 @@ const LandingPage = (props) => {
                 </div>
               </div>
               <div className="landing-page-follow-container">
-                <span className="landing-page-text06">Segui o primo</span>
+                <span className="landing-page-text04">Segui o primo</span>
                 <div className="landing-page-icons-container">
                   <a
                     href="https://www.instagram.com/oprimojunior/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="landing-page-link05"
+                    className="landing-page-link07"
                   >
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
@@ -112,7 +122,7 @@ const LandingPage = (props) => {
                     href="https://twitter.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="landing-page-link06"
+                    className="landing-page-link08"
                   >
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -127,8 +137,8 @@ const LandingPage = (props) => {
           </nav>
           <div className="landing-page-hero">
             <div className="landing-page-content-container">
-              <h1 className="landing-page-text07">Seja uma pessoa ilimitada</h1>
-              <span className="landing-page-text08 subheading">
+              <h1 className="landing-page-text05">Seja uma pessoa ilimitada</h1>
+              <span className="landing-page-text06 subheading">
                 Estou escrevendo um e-book que vai te ajudar a descobrir o seu
                 Dom.
               </span>
@@ -165,10 +175,10 @@ const LandingPage = (props) => {
         </div>
         <a
           href="https://open.spotify.com/show/0LzVGwtBYHnWAByDNLNn3b"
-          className="landing-page-link07"
+          className="landing-page-link09"
         >
-          <h1 className="landing-page-text09">
-            <span className="landing-page-text10">Ver todos</span>
+          <h1 className="landing-page-text07">
+            <span className="landing-page-text08">Ver todos</span>
             <span> os episodios</span>
           </h1>
         </a>
@@ -179,13 +189,13 @@ const LandingPage = (props) => {
               <div className="landing-page-container1">
                 <a
                   href="https://blog.startpee.site/category/projeto/"
-                  className="landing-page-link08"
+                  className="landing-page-link10"
                 >
                   Meus projetos
                 </a>
                 <a
                   href="https://blog.startpee.site/category/portfolio/"
-                  className="landing-page-link09"
+                  className="landing-page-link11"
                 >
                   Portifolio Exemplos
                 </a>
@@ -193,7 +203,7 @@ const LandingPage = (props) => {
                   href="https://primojunior.com/patrocinar"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link10"
+                  className="landing-page-link12"
                 >
                   Patrocinar
                 </a>
@@ -203,7 +213,7 @@ const LandingPage = (props) => {
                   href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link11"
+                  className="landing-page-link13"
                 >
                   Minha história 
                 </a>
@@ -211,18 +221,18 @@ const LandingPage = (props) => {
                   href="https://example.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="landing-page-link12"
+                  className="landing-page-link14"
                 >
                   Politica de privacidade
                 </a>
                 <Link href="/chat">
-                  <a className="landing-page-link13">Contato</a>
+                  <a className="landing-page-link15">Contato</a>
                 </Link>
               </div>
             </div>
             <div className="landing-page-follow-container1">
               <div className="landing-page-follow-container2">
-                <span className="landing-page-text12">
+                <span className="landing-page-text10">
                   Acompanhe o primo nas redes
                 </span>
                 <div className="landing-page-container3">
@@ -230,7 +240,7 @@ const LandingPage = (props) => {
                     <div className="landing-page-icons-container1">
                       <a
                         href="https://www.instagram.com/oprimojunior/"
-                        className="landing-page-link14"
+                        className="landing-page-link16"
                       >
                         <svg
                           viewBox="0 0 877.7142857142857 1024"
@@ -241,7 +251,7 @@ const LandingPage = (props) => {
                       </a>
                       <a
                         href="https://www.tiktok.com/@oprimojunior"
-                        className="landing-page-link15"
+                        className="landing-page-link17"
                       >
                         <img
                           alt="image"
@@ -251,7 +261,7 @@ const LandingPage = (props) => {
                       </a>
                       <a
                         href="https://twitter.com/oprimojunior"
-                        className="landing-page-link16"
+                        className="landing-page-link18"
                       >
                         <img
                           alt="image"
@@ -261,7 +271,7 @@ const LandingPage = (props) => {
                       </a>
                       <a
                         href="https://www.youtube.com/channel/UCVLuKfabpsJu5zIdv7kGSKg/"
-                        className="landing-page-link17"
+                        className="landing-page-link19"
                       >
                         <img
                           alt="image"
@@ -271,7 +281,7 @@ const LandingPage = (props) => {
                       </a>
                       <a
                         href="https://br.pinterest.com/oprimojunior/"
-                        className="landing-page-link18"
+                        className="landing-page-link20"
                       >
                         <img
                           alt="image"
@@ -281,7 +291,7 @@ const LandingPage = (props) => {
                       </a>
                       <a
                         href="https://www.facebook.com/oprimojunior.oficial"
-                        className="landing-page-link19"
+                        className="landing-page-link21"
                       >
                         <img
                           alt="image"
@@ -291,7 +301,7 @@ const LandingPage = (props) => {
                       </a>
                       <a
                         href="https://www.linkedin.com/in/oprimojunior/"
-                        className="landing-page-link20"
+                        className="landing-page-link22"
                       >
                         <img
                           alt="image"
@@ -310,7 +320,7 @@ const LandingPage = (props) => {
           href="https://startpee.site/"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link21"
+          className="landing-page-link23"
         >
           <span>
             Site criado pela 
@@ -320,7 +330,7 @@ const LandingPage = (props) => {
               }}
             />
           </span>
-          <span className="landing-page-text14">Startpee</span>
+          <span className="landing-page-text12">Startpee</span>
         </a>
       </div>
       <style jsx>
@@ -370,28 +380,30 @@ const LandingPage = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .landing-page-text {
-            font-style: normal;
-            font-weight: 700;
-            margin-right: var(--dl-space-space-doubleunit);
-          }
-          .landing-page-text01 {
-            font-style: normal;
-            font-weight: 700;
-            margin-right: var(--dl-space-space-doubleunit);
-          }
-          .landing-page-text02 {
-            font-style: normal;
-            font-weight: 700;
-            margin-right: var(--dl-space-space-doubleunit);
-          }
           .landing-page-link01 {
             font-style: normal;
             font-weight: 700;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
+          .landing-page-text {
+            font-style: normal;
+            font-weight: 700;
+            margin-right: var(--dl-space-space-doubleunit);
+          }
           .landing-page-link02 {
+            font-style: normal;
+            font-weight: 700;
+            margin-right: var(--dl-space-space-doubleunit);
+            text-decoration: none;
+          }
+          .landing-page-link03 {
+            font-style: normal;
+            font-weight: 700;
+            margin-right: var(--dl-space-space-doubleunit);
+            text-decoration: none;
+          }
+          .landing-page-link04 {
             display: contents;
           }
           .landing-page-component {
@@ -465,17 +477,17 @@ const LandingPage = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .landing-page-link03 {
+          .landing-page-link05 {
             margin-bottom: 8px;
             text-decoration: none;
           }
-          .landing-page-text03 {
+          .landing-page-text01 {
             margin-bottom: 8px;
           }
-          .landing-page-text04 {
+          .landing-page-text02 {
             margin-bottom: 8px;
           }
-          .landing-page-link04 {
+          .landing-page-link06 {
             display: contents;
           }
           .landing-page-component1 {
@@ -487,7 +499,7 @@ const LandingPage = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .landing-page-text06 {
+          .landing-page-text04 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .landing-page-icons-container {
@@ -497,7 +509,7 @@ const LandingPage = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .landing-page-link05 {
+          .landing-page-link07 {
             display: contents;
           }
           .landing-page-icon05 {
@@ -508,7 +520,7 @@ const LandingPage = (props) => {
             width: 24px;
             height: 24px;
           }
-          .landing-page-link06 {
+          .landing-page-link08 {
             display: contents;
           }
           .landing-page-icon09 {
@@ -533,7 +545,7 @@ const LandingPage = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .landing-page-text07 {
+          .landing-page-text05 {
             font-size: 3rem;
             align-self: center;
             font-family: Poppins;
@@ -542,7 +554,7 @@ const LandingPage = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .landing-page-text08 {
+          .landing-page-text06 {
             color: #ffffff;
             font-style: normal;
             padding-top: var(--dl-space-space-doubleunit);
@@ -565,10 +577,10 @@ const LandingPage = (props) => {
           .landing-page-html-node1 {
             width: 100%;
           }
-          .landing-page-link07 {
+          .landing-page-link09 {
             display: contents;
           }
-          .landing-page-text09 {
+          .landing-page-text07 {
             color: rgb(255, 255, 255);
             margin-top: 10px;
             text-align: center;
@@ -576,7 +588,7 @@ const LandingPage = (props) => {
             text-decoration: none;
             background-color: rgb(64, 40, 160);
           }
-          .landing-page-text10 {
+          .landing-page-text08 {
             text-decoration: underline;
           }
           .landing-page-footer {
@@ -609,23 +621,9 @@ const LandingPage = (props) => {
             margin-left: 100px;
             flex-direction: column;
           }
-          .landing-page-link08 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .landing-page-link09 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
           .landing-page-link10 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
-          }
-          .landing-page-container2 {
-            display: flex;
-            align-items: flex-start;
-            margin-left: 100px;
-            flex-direction: column;
           }
           .landing-page-link11 {
             margin-bottom: var(--dl-space-space-unit);
@@ -635,7 +633,21 @@ const LandingPage = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
+          .landing-page-container2 {
+            display: flex;
+            align-items: flex-start;
+            margin-left: 100px;
+            flex-direction: column;
+          }
           .landing-page-link13 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .landing-page-link14 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .landing-page-link15 {
             text-decoration: none;
           }
           .landing-page-follow-container1 {
@@ -652,7 +664,7 @@ const LandingPage = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .landing-page-text12 {
+          .landing-page-text10 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .landing-page-container3 {
@@ -679,7 +691,7 @@ const LandingPage = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .landing-page-link14 {
+          .landing-page-link16 {
             display: contents;
           }
           .landing-page-icon11 {
@@ -689,7 +701,7 @@ const LandingPage = (props) => {
             margin-left: 3px;
             margin-right: 3px;
           }
-          .landing-page-link15 {
+          .landing-page-link17 {
             display: contents;
           }
           .landing-page-image {
@@ -700,7 +712,7 @@ const LandingPage = (props) => {
             margin-right: 3px;
             text-decoration: none;
           }
-          .landing-page-link16 {
+          .landing-page-link18 {
             display: contents;
           }
           .landing-page-image1 {
@@ -710,7 +722,7 @@ const LandingPage = (props) => {
             margin-right: 3px;
             text-decoration: none;
           }
-          .landing-page-link17 {
+          .landing-page-link19 {
             display: contents;
           }
           .landing-page-image2 {
@@ -721,7 +733,7 @@ const LandingPage = (props) => {
             margin-right: 3px;
             text-decoration: none;
           }
-          .landing-page-link18 {
+          .landing-page-link20 {
             display: contents;
           }
           .landing-page-image3 {
@@ -731,7 +743,7 @@ const LandingPage = (props) => {
             margin-right: 3px;
             text-decoration: none;
           }
-          .landing-page-link19 {
+          .landing-page-link21 {
             display: contents;
           }
           .landing-page-image4 {
@@ -741,7 +753,7 @@ const LandingPage = (props) => {
             margin-right: 3px;
             text-decoration: none;
           }
-          .landing-page-link20 {
+          .landing-page-link22 {
             display: contents;
           }
           .landing-page-image5 {
@@ -751,11 +763,11 @@ const LandingPage = (props) => {
             margin-right: 3px;
             text-decoration: none;
           }
-          .landing-page-link21 {
+          .landing-page-link23 {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .landing-page-text14 {
+          .landing-page-text12 {
             font-style: normal;
             font-weight: 700;
           }
@@ -764,11 +776,11 @@ const LandingPage = (props) => {
               padding-left: var(--dl-space-space-tripleunit);
               padding-right: var(--dl-space-space-tripleunit);
             }
-            .landing-page-text08 {
+            .landing-page-text06 {
               align-self: center;
               text-align: center;
             }
-            .landing-page-text12 {
+            .landing-page-text10 {
               text-align: center;
             }
             .landing-page-icon11 {
@@ -780,7 +792,7 @@ const LandingPage = (props) => {
               height: 29px;
               padding-top: 0px;
             }
-            .landing-page-link21 {
+            .landing-page-link23 {
               text-align: center;
             }
           }
@@ -804,10 +816,10 @@ const LandingPage = (props) => {
             .landing-page-content-container {
               align-items: center;
             }
-            .landing-page-text07 {
+            .landing-page-text05 {
               font-size: 2.5rem;
             }
-            .landing-page-text08 {
+            .landing-page-text06 {
               text-align: center;
               padding-top: 4px;
               padding-bottom: 4px;
@@ -839,7 +851,7 @@ const LandingPage = (props) => {
             .landing-page-mobile-menu {
               display: none;
             }
-            .landing-page-text07 {
+            .landing-page-text05 {
               font-size: 2rem;
               text-align: center;
             }
@@ -852,7 +864,7 @@ const LandingPage = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .landing-page-text09 {
+            .landing-page-text07 {
               font-size: 1em;
             }
             .landing-page-links-container2 {
@@ -860,13 +872,13 @@ const LandingPage = (props) => {
               align-items: flex-start;
               justify-content: flex-start;
             }
-            .landing-page-link08 {
-              margin-bottom: var(--dl-space-space-halfunit);
-            }
-            .landing-page-link09 {
-              margin-bottom: var(--dl-space-space-halfunit);
-            }
             .landing-page-link10 {
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
+            .landing-page-link11 {
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
+            .landing-page-link12 {
               margin-bottom: var(--dl-space-space-halfunit);
               text-decoration: none;
             }
@@ -875,13 +887,13 @@ const LandingPage = (props) => {
               align-items: flex-start;
               margin-left: 50px;
             }
-            .landing-page-link11 {
-              margin-bottom: var(--dl-space-space-halfunit);
-            }
-            .landing-page-link12 {
-              margin-bottom: var(--dl-space-space-halfunit);
-            }
             .landing-page-link13 {
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
+            .landing-page-link14 {
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
+            .landing-page-link15 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .landing-page-follow-container1 {
