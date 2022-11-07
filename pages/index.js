@@ -137,10 +137,9 @@ const LandingPage = (props) => {
           </nav>
           <div className="landing-page-hero">
             <div className="landing-page-content-container">
-              <h1 className="landing-page-text05">Seja uma pessoa ilimitada</h1>
-              <span className="landing-page-text06 subheading">
-                Estou escrevendo um e-book que vai te ajudar a descobrir o seu
-                Dom.
+              <span className="landing-page-text05 subheading">
+                Estou escrevendo um e-book que vai te ajudar a se tornar um
+                influênciador digital mesmo não tendo talento.
               </span>
               <SolidButton
                 button="Eu quero"
@@ -177,8 +176,8 @@ const LandingPage = (props) => {
           href="https://open.spotify.com/show/0LzVGwtBYHnWAByDNLNn3b"
           className="landing-page-link09"
         >
-          <h1 className="landing-page-text07">
-            <span className="landing-page-text08">Ver todos</span>
+          <h1 className="landing-page-text06">
+            <span className="landing-page-text07">Ver todos</span>
             <span> os episodios</span>
           </h1>
         </a>
@@ -232,7 +231,7 @@ const LandingPage = (props) => {
             </div>
             <div className="landing-page-follow-container1">
               <div className="landing-page-follow-container2">
-                <span className="landing-page-text10">
+                <span className="landing-page-text09">
                   Acompanhe o primo nas redes
                 </span>
                 <div className="landing-page-container3">
@@ -330,7 +329,7 @@ const LandingPage = (props) => {
               }}
             />
           </span>
-          <span className="landing-page-text12">Startpee</span>
+          <span className="landing-page-text11">Startpee</span>
         </a>
       </div>
       <style jsx>
@@ -546,15 +545,6 @@ const LandingPage = (props) => {
             flex-direction: column;
           }
           .landing-page-text05 {
-            font-size: 3rem;
-            align-self: center;
-            font-family: Poppins;
-            font-weight: 700;
-            line-height: 1.55;
-            text-transform: none;
-            text-decoration: none;
-          }
-          .landing-page-text06 {
             color: #ffffff;
             font-style: normal;
             padding-top: var(--dl-space-space-doubleunit);
@@ -580,7 +570,7 @@ const LandingPage = (props) => {
           .landing-page-link09 {
             display: contents;
           }
-          .landing-page-text07 {
+          .landing-page-text06 {
             color: rgb(255, 255, 255);
             margin-top: 10px;
             text-align: center;
@@ -588,7 +578,7 @@ const LandingPage = (props) => {
             text-decoration: none;
             background-color: rgb(64, 40, 160);
           }
-          .landing-page-text08 {
+          .landing-page-text07 {
             text-decoration: underline;
           }
           .landing-page-footer {
@@ -664,7 +654,7 @@ const LandingPage = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .landing-page-text10 {
+          .landing-page-text09 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .landing-page-container3 {
@@ -767,7 +757,7 @@ const LandingPage = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .landing-page-text12 {
+          .landing-page-text11 {
             font-style: normal;
             font-weight: 700;
           }
@@ -776,11 +766,11 @@ const LandingPage = (props) => {
               padding-left: var(--dl-space-space-tripleunit);
               padding-right: var(--dl-space-space-tripleunit);
             }
-            .landing-page-text06 {
+            .landing-page-text05 {
               align-self: center;
               text-align: center;
             }
-            .landing-page-text10 {
+            .landing-page-text09 {
               text-align: center;
             }
             .landing-page-icon11 {
@@ -817,9 +807,6 @@ const LandingPage = (props) => {
               align-items: center;
             }
             .landing-page-text05 {
-              font-size: 2.5rem;
-            }
-            .landing-page-text06 {
               text-align: center;
               padding-top: 4px;
               padding-bottom: 4px;
@@ -852,8 +839,7 @@ const LandingPage = (props) => {
               display: none;
             }
             .landing-page-text05 {
-              font-size: 2rem;
-              text-align: center;
+              margin-top: 20px;
             }
             .landing-page-logo2 {
               font-size: 1.5rem;
@@ -864,7 +850,7 @@ const LandingPage = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .landing-page-text07 {
+            .landing-page-text06 {
               font-size: 1em;
             }
             .landing-page-links-container2 {
