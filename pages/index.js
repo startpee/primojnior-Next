@@ -238,7 +238,9 @@ const LandingPage = (props) => {
                   <div className="landing-page-container4">
                     <div className="landing-page-icons-container1">
                       <a
-                        href="https://www.instagram.com/oprimojunior/"
+                        href="https://www.instagram.com/oprimojunior1/"
+                        target="_blank"
+                        rel="noreferrer noopener"
                         className="landing-page-link16"
                       >
                         <svg
@@ -269,7 +271,9 @@ const LandingPage = (props) => {
                         />
                       </a>
                       <a
-                        href="https://www.youtube.com/channel/UCVLuKfabpsJu5zIdv7kGSKg/"
+                        href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ"
+                        target="_blank"
+                        rel="noreferrer noopener"
                         className="landing-page-link19"
                       >
                         <img
