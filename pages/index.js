@@ -238,9 +238,7 @@ const LandingPage = (props) => {
                   <div className="landing-page-container4">
                     <div className="landing-page-icons-container1">
                       <a
-                        href="https://www.instagram.com/oprimojunior1/"
-                        target="_blank"
-                        rel="noreferrer noopener"
+                        href="https://www.instagram.com/oprimojunior"
                         className="landing-page-link16"
                       >
                         <svg
