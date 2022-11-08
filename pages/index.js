@@ -270,8 +270,6 @@ const LandingPage = (props) => {
                       </a>
                       <a
                         href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ"
-                        target="_blank"
-                        rel="noreferrer noopener"
                         className="landing-page-link19"
                       >
                         <img
