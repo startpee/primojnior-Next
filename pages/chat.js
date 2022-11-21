@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import DangerousHTML from 'dangerous-html/react'
+
 const Chat = (props) => {
   return (
     <>
@@ -9,13 +11,10 @@ const Chat = (props) => {
           <title>chat - primojúnior</title>
           <meta property="og:title" content="chat - primojúnior" />
         </Head>
-        <div className="chat-html-node">
-          <span
-            dangerouslySetInnerHTML={{
-              __html:
-                '<script src="//code.tidio.co/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1.js" async></script>',
-            }}
-          />
+        <div className="chat-div">
+          <DangerousHTML
+            html={`<script src="//code.tidio.co/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1.js" async></script>`}
+          ></DangerousHTML>
         </div>
       </div>
       <style jsx>
@@ -29,7 +28,7 @@ const Chat = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .chat-html-node {
+          .chat-div {
             width: 100%;
             height: 994px;
           }

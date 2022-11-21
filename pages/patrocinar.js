@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import DangerousHTML from 'dangerous-html/react'
+
 const Patrocinar = (props) => {
   return (
     <>
@@ -10,13 +12,16 @@ const Patrocinar = (props) => {
           <title>patrocinar - primojúnior</title>
           <meta property="og:title" content="patrocinar - primojúnior" />
         </Head>
-        <div className="patrocinar-html-node">
-          <span
-            dangerouslySetInnerHTML={{
-              __html:
-                '<script src="https://fast.wistia.com/embed/medias/dhlouaqaol.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_dhlouaqaol popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
-            }}
-          />
+        <div className="patrocinar-div">
+          <DangerousHTML
+            html={`<script src="https://fast.wistia.com/embed/medias/dhlouaqaol.jsonp" async></script>
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <span class="wistia_embed wistia_async_dhlouaqaol popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>
+    </div>
+</div>`}
+          ></DangerousHTML>
         </div>
         <div className="patrocinar-container1">
           <div className="patrocinar-footer">
@@ -80,7 +85,7 @@ const Patrocinar = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .patrocinar-html-node {
+          .patrocinar-div {
             width: 799px;
             height: 411px;
             align-self: center;
@@ -156,7 +161,7 @@ const Patrocinar = (props) => {
             text-decoration: none;
           }
           @media (max-width: 991px) {
-            .patrocinar-html-node {
+            .patrocinar-div {
               width: 735px;
               height: 375px;
             }
@@ -165,7 +170,7 @@ const Patrocinar = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .patrocinar-html-node {
+            .patrocinar-div {
               width: 767px;
               height: 415px;
             }
@@ -183,7 +188,7 @@ const Patrocinar = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .patrocinar-html-node {
+            .patrocinar-div {
               width: 479px;
               height: 259px;
               align-self: center;

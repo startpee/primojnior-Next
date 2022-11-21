@@ -6,7 +6,9 @@ const SolidButton = (props) => {
   return (
     <>
       <div className={`solid-button-container ${props.rootClassName} `}>
-        <button className="solid-button-button button">{props.button}</button>
+        <button className="solid-button-button button Button">
+          {props.button}
+        </button>
       </div>
       <style jsx>
         {`

@@ -6,7 +6,7 @@ const OutlineButton = (props) => {
   return (
     <>
       <div className="outline-button-container">
-        <button className="outline-button-button button">
+        <button className="outline-button-button button Button">
           {props.button1}
         </button>
       </div>
